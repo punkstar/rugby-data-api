@@ -11,7 +11,8 @@ $app->get('/', function () {
     $links = [];
 
     $leagues = [
-        new \Punkstar\RugbyFeed\League\Aviva()
+        new \Punkstar\RugbyFeed\League\Aviva(),
+        new \Punkstar\RugbyFeed\League\Pro12()
     ];
 
     foreach ($leagues as $league) {

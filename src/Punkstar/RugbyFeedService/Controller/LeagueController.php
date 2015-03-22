@@ -7,6 +7,7 @@ use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\JsonApiSerializer;
 use Punkstar\RugbyFeed\Fixtures;
 use Punkstar\RugbyFeed\League\Aviva;
+use Punkstar\RugbyFeed\League\Pro12;
 use Punkstar\RugbyFeed\Team;
 use Punkstar\RugbyFeedService\Transformer\EventTransformer;
 use Silex\Application;
@@ -24,7 +25,7 @@ class LeagueController implements ControllerProviderInterface
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
 
-            if ($league_name_in_url !== 'aviva') {
+            if ($league_name_in_url !== 'aviva' && $league_name_in_url !== 'pro12') {
                 return new Response(
                     json_encode([
                         "errors" => [
@@ -43,7 +44,16 @@ class LeagueController implements ControllerProviderInterface
                 );
             }
 
-            $league = new Aviva();
+            switch ($league_name_in_url) {
+                case 'aviva':
+                    $league = new Aviva();
+                    break;
+                case 'pro12':
+                    $league = new Pro12();
+                    break;
+                default:
+                    throw new \Exception("League not recognised");
+            }
 
             $data_container = new Collection($league->getFixtures(), new EventTransformer($league));
 
@@ -63,7 +73,7 @@ class LeagueController implements ControllerProviderInterface
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
 
-            if ($league_name_in_url !== 'aviva') {
+            if ($league_name_in_url !== 'aviva' && $league_name_in_url !== 'pro12') {
                 return new Response(
                     json_encode([
                         "errors" => [
@@ -82,7 +92,17 @@ class LeagueController implements ControllerProviderInterface
                 );
             }
 
-            $league = new Aviva();
+            switch ($league_name_in_url) {
+                case 'aviva':
+                    $league = new Aviva();
+                    break;
+                case 'pro12':
+                    $league = new Pro12();
+                    break;
+                default:
+                    throw new \Exception("League not recognised");
+            }
+
             $fixtures = new Fixtures($league->getCalendar());
 
             $team = null;
