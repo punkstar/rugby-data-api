@@ -2,9 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$config = [
-    'debug' => true
-];
+$config = [];
 
 $app = new Silex\Application($config);
 $app->mount('/fixtures', new \Punkstar\RugbyFeedService\Controller\LeagueController());
