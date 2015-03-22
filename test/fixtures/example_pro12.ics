@@ -1,0 +1,1569 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sotic Ltd//EN
+METHOD:PUBLISH
+X-PRIMARY-CALENDAR:TRUE
+X-MS-OLK-WKHRSTART;TZID="GMT Standard Time":080000
+X-MS-OLK-WKHREND;TZID="GMT Standard Time":170000
+X-MS-OLK-WKHRDAYS:MO,TU,WE,TH,FR
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140905T183500Z
+DTEND:20140905T183500Z
+SUMMARY:Munster Rugby 13 - 14 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196466
+UID:20140905T183500ZMunster Rugby 13 - 14 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140905T183500Z
+DTEND:20140905T183500Z
+SUMMARY:Ospreys 44 - 13 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196465
+UID:20140905T183500ZOspreys 44 - 13 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140906T134000Z
+DTEND:20140906T134000Z
+SUMMARY:Scarlets 32 - 32 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196463
+UID:20140906T134000ZScarlets 32 - 32 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140906T160000Z
+DTEND:20140906T160000Z
+SUMMARY:Connacht Rugby 16 - 11 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196468
+UID:20140906T160000ZConnacht Rugby 16 - 11 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140906T161500Z
+DTEND:20140906T161500Z
+SUMMARY:Glasgow Warriors 22 - 20 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196464
+UID:20140906T161500ZGlasgow Warriors 22 - 20 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140907T150000Z
+DTEND:20140907T150000Z
+SUMMARY:Zebre 26 - 41 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196467
+UID:20140907T150000ZZebre 26 - 41 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172011Z
+DTSTART:20140912T183500Z
+DTEND:20140912T183500Z
+SUMMARY:Edinburgh Rugby 13 - 14 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196469
+UID:20140912T183500ZEdinburgh Rugby 13 - 14 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140912T183500Z
+DTEND:20140912T183500Z
+SUMMARY:Newport Gwent Dragons 15 - 17 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196474
+UID:20140912T183500ZNewport Gwent Dragons 15 - 17 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140912T183500Z
+DTEND:20140912T183500Z
+SUMMARY:Ulster Rugby 33 - 13 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196471
+UID:20140912T183500ZUlster Rugby 33 - 13 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140912T180000Z
+DTEND:20140912T180000Z
+SUMMARY:Benetton Treviso 10 - 21 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196470
+UID:20140912T180000ZBenetton Treviso 10 - 21 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140913T134000Z
+DTEND:20140913T134000Z
+SUMMARY:Leinster Rugby 42 - 12 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196473
+UID:20140913T134000ZLeinster Rugby 42 - 12 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140914T150000Z
+DTEND:20140914T150000Z
+SUMMARY:Cardiff Blues 12 - 33 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196472
+UID:20140914T150000ZCardiff Blues 12 - 33 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140919T183000Z
+DTEND:20140919T183000Z
+SUMMARY:Munster Rugby 31 - 5 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196476
+UID:20140919T183000ZMunster Rugby 31 - 5 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140919T183500Z
+DTEND:20140919T183500Z
+SUMMARY:Cardiff Blues 9 - 26 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196477
+UID:20140919T183500ZCardiff Blues 9 - 26 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140919T183500Z
+DTEND:20140919T183500Z
+SUMMARY:Connacht Rugby 10 - 9 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196475
+UID:20140919T183500ZConnacht Rugby 10 - 9 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140920T134000Z
+DTEND:20140920T134000Z
+SUMMARY:Newport Gwent Dragons 13 - 33 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196479
+UID:20140920T134000ZNewport Gwent Dragons 13 - 33 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140920T170000Z
+DTEND:20140920T170000Z
+SUMMARY:Scarlets v Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196478
+UID:20140920T170000ZScarlets v Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140921T150000Z
+DTEND:20140921T150000Z
+SUMMARY:Ospreys 62 - 13 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196480
+UID:20140921T150000ZOspreys 62 - 13 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140926T183500Z
+DTEND:20140926T183500Z
+SUMMARY:Edinburgh Rugby 20 - 20 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196485
+UID:20140926T183500ZEdinburgh Rugby 20 - 20 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140926T183500Z
+DTEND:20140926T183500Z
+SUMMARY:Glasgow Warriors 39 - 21 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196481
+UID:20140926T183500ZGlasgow Warriors 39 - 21 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140926T183500Z
+DTEND:20140926T183500Z
+SUMMARY:Leinster Rugby 37 - 23 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196484
+UID:20140926T183500ZLeinster Rugby 37 - 23 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140927T140500Z
+DTEND:20140927T140500Z
+SUMMARY:Zebre 13 - 6 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196482
+UID:20140927T140500ZZebre 13 - 6 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140927T173000Z
+DTEND:20140927T173000Z
+SUMMARY:Munster Rugby 14 - 19 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196486
+UID:20140927T173000ZMunster Rugby 14 - 19 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20140928T150000Z
+DTEND:20140928T150000Z
+SUMMARY:Newport Gwent Dragons 33 - 15 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196483
+UID:20140928T150000ZNewport Gwent Dragons 33 - 15 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141003T183500Z
+DTEND:20141003T183500Z
+SUMMARY:Connacht Rugby 24 - 24 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196491
+UID:20141003T183500ZConnacht Rugby 24 - 24 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141003T183500Z
+DTEND:20141003T183500Z
+SUMMARY:Ulster Rugby v Edinburgh Rugby BBCNI/ALBA
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196490
+UID:20141003T183500ZUlster Rugby v Edinburgh Rugby BBCNI/ALBA
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141003T183500Z
+DTEND:20141003T183500Z
+SUMMARY:Zebre 14 - 15 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196488
+UID:20141003T183500ZZebre 14 - 15 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141004T173000Z
+DTEND:20141004T173000Z
+SUMMARY:Leinster Rugby 23 - 34 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:AVIVA Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196487
+UID:20141004T173000ZLeinster Rugby 23 - 34 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141005T130000Z
+DTEND:20141005T130000Z
+SUMMARY:Benetton Treviso 23 - 40 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196489
+UID:20141005T130000ZBenetton Treviso 23 - 40 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141005T150000Z
+DTEND:20141005T150000Z
+SUMMARY:Scarlets 26 - 13 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196492
+UID:20141005T150000ZScarlets 26 - 13 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141010T183500Z
+DTEND:20141010T183500Z
+SUMMARY:Munster Rugby 17 - 6 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196498
+UID:20141010T183500ZMunster Rugby 17 - 6 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141010T180000Z
+DTEND:20141010T180000Z
+SUMMARY:Benetton Treviso 6 - 9 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196493
+UID:20141010T180000ZBenetton Treviso 6 - 9 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141011T134000Z
+DTEND:20141011T134000Z
+SUMMARY:Edinburgh Rugby 24 - 10 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196497
+UID:20141011T134000ZEdinburgh Rugby 24 - 10 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141011T140000Z
+DTEND:20141011T140000Z
+SUMMARY:Zebre 3 - 20 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196494
+UID:20141011T140000ZZebre 3 - 20 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141011T160500Z
+DTEND:20141011T160500Z
+SUMMARY:Ulster Rugby 29 - 9 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196495
+UID:20141011T160500ZUlster Rugby 29 - 9 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141012T150000Z
+DTEND:20141012T150000Z
+SUMMARY:Ospreys 26 - 15 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196496
+UID:20141012T150000ZOspreys 26 - 15 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141031T193500Z
+DTEND:20141031T193500Z
+SUMMARY:Glasgow Warriors 17 - 9 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196501
+UID:20141031T193500ZGlasgow Warriors 17 - 9 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141031T193500Z
+DTEND:20141031T193500Z
+SUMMARY:Leinster Rugby 33 - 8 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196502
+UID:20141031T193500ZLeinster Rugby 33 - 8 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141031T193500Z
+DTEND:20141031T193500Z
+SUMMARY:Ospreys 26 - 11 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196499
+UID:20141031T193500ZOspreys 26 - 11 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141101T171500Z
+DTEND:20141101T171500Z
+SUMMARY:Cardiff Blues 24 - 28 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196500
+UID:20141101T171500ZCardiff Blues 24 - 28 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141101T180000Z
+DTEND:20141101T180000Z
+SUMMARY:Scarlets 28 - 13 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196504
+UID:20141101T180000ZScarlets 28 - 13 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141101T193500Z
+DTEND:20141101T193500Z
+SUMMARY:Ulster Rugby 23 - 6 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196503
+UID:20141101T193500ZUlster Rugby 23 - 6 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141121T193000Z
+DTEND:20141121T193000Z
+SUMMARY:Newport Gwent Dragons 12 - 38 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196506
+UID:20141121T193000ZNewport Gwent Dragons 12 - 38 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141121T193500Z
+DTEND:20141121T193500Z
+SUMMARY:Connacht Rugby 43 - 3 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196507
+UID:20141121T193500ZConnacht Rugby 43 - 3 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141121T193500Z
+DTEND:20141121T193500Z
+SUMMARY:Scarlets 19 - 9 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196508
+UID:20141121T193500ZScarlets 19 - 9 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141121T193500Z
+DTEND:20141121T193500Z
+SUMMARY:Ulster Rugby 25 - 16 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196510
+UID:20141121T193500ZUlster Rugby 25 - 16 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141123T143000Z
+DTEND:20141123T143000Z
+SUMMARY:Benetton Treviso 24 - 24 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196505
+UID:20141123T143000ZBenetton Treviso 24 - 24 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141123T160000Z
+DTEND:20141123T160000Z
+SUMMARY:Edinburgh Rugby 28 - 13 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196509
+UID:20141123T160000ZEdinburgh Rugby 28 - 13 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141128T193500Z
+DTEND:20141128T193500Z
+SUMMARY:Cardiff Blues 36 - 25 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196512
+UID:20141128T193500ZCardiff Blues 36 - 25 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141128T193500Z
+DTEND:20141128T193500Z
+SUMMARY:Munster Rugby 21 - 20 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196511
+UID:20141128T193500ZMunster Rugby 21 - 20 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141129T150000Z
+DTEND:20141129T150000Z
+SUMMARY:Zebre 18 - 10 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196513
+UID:20141129T150000ZZebre 18 - 10 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141129T171500Z
+DTEND:20141129T171500Z
+SUMMARY:Leinster Rugby 18 - 12 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196516
+UID:20141129T171500ZLeinster Rugby 18 - 12 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141129T193000Z
+DTEND:20141129T193000Z
+SUMMARY:Connacht Rugby 14 - 8 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196515
+UID:20141129T193000ZConnacht Rugby 14 - 8 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141130T160000Z
+DTEND:20141130T160000Z
+SUMMARY:Glasgow Warriors 19 - 15 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196514
+UID:20141130T160000ZGlasgow Warriors 19 - 15 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141219T193500Z
+DTEND:20141219T193500Z
+SUMMARY:Cardiff Blues 21 - 9 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196522
+UID:20141219T193500ZCardiff Blues 21 - 9 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141219T193500Z
+DTEND:20141219T193500Z
+SUMMARY:Edinburgh Rugby v Benetton Treviso ALBA/Nuvolar
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196520
+UID:20141219T193500ZEdinburgh Rugby v Benetton Treviso ALBA/Nuvolar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141219T193500Z
+DTEND:20141219T193500Z
+SUMMARY:Leinster Rugby 21 - 11 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196517
+UID:20141219T193500ZLeinster Rugby 21 - 11 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141220T144000Z
+DTEND:20141220T144000Z
+SUMMARY:Glasgow Warriors 21 - 18 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196518
+UID:20141220T144000ZGlasgow Warriors 21 - 18 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141220T171500Z
+DTEND:20141220T171500Z
+SUMMARY:Ospreys 31 - 20 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196519
+UID:20141220T171500ZOspreys 31 - 20 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141221T160000Z
+DTEND:20141221T160000Z
+SUMMARY:Newport Gwent Dragons 25 - 11 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196521
+UID:20141221T160000ZNewport Gwent Dragons 25 - 11 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141226T140500Z
+DTEND:20141226T140500Z
+SUMMARY:Cardiff Blues 17 - 23 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196527
+UID:20141226T140500ZCardiff Blues 17 - 23 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141226T170000Z
+DTEND:20141226T170000Z
+SUMMARY:Munster Rugby 28 - 13 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196524
+UID:20141226T170000ZMunster Rugby 28 - 13 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141226T184500Z
+DTEND:20141226T184500Z
+SUMMARY:Ulster Rugby 13 - 10 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196523
+UID:20141226T184500ZUlster Rugby 13 - 10 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141227T144000Z
+DTEND:20141227T144000Z
+SUMMARY:Glasgow Warriors 16 - 6 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196526
+UID:20141227T144000ZGlasgow Warriors 16 - 6 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141227T171500Z
+DTEND:20141227T171500Z
+SUMMARY:Ospreys 17 - 15 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196528
+UID:20141227T171500ZOspreys 17 - 15 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20141228T140000Z
+DTEND:20141228T140000Z
+SUMMARY:Zebre 16 - 26 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196525
+UID:20141228T140000ZZebre 16 - 26 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150101T140500Z
+DTEND:20150101T140500Z
+SUMMARY:Newport Gwent Dragons 9 - 11 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196533
+UID:20150101T140500ZNewport Gwent Dragons 9 - 11 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150101T170000Z
+DTEND:20150101T170000Z
+SUMMARY:Connacht Rugby 24 - 16 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196529
+UID:20150101T170000ZConnacht Rugby 24 - 16 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150102T193500Z
+DTEND:20150102T193500Z
+SUMMARY:Edinburgh Rugby 20 - 8 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196532
+UID:20150102T193500ZEdinburgh Rugby 20 - 8 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150103T144000Z
+DTEND:20150103T144000Z
+SUMMARY:Leinster Rugby 24 - 11 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196530
+UID:20150103T144000ZLeinster Rugby 24 - 11 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150103T140000Z
+DTEND:20150103T140000Z
+SUMMARY:Benetton Treviso 17 - 15 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196531
+UID:20150103T140000ZBenetton Treviso 17 - 15 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150103T170500Z
+DTEND:20150103T170500Z
+SUMMARY:Scarlets 22 - 10 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196534
+UID:20150103T170500ZScarlets 22 - 10 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150109T193500Z
+DTEND:20150109T193500Z
+SUMMARY:Connacht Rugby 13 - 16 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196538
+UID:20150109T193500ZConnacht Rugby 13 - 16 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150109T193500Z
+DTEND:20150109T193500Z
+SUMMARY:Glasgow Warriors 22 - 7 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196540
+UID:20150109T193500ZGlasgow Warriors 22 - 7 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150110T144000Z
+DTEND:20150110T144000Z
+SUMMARY:Cardiff Blues 13 - 22 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196535
+UID:20150110T144000ZCardiff Blues 13 - 22 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150110T150000Z
+DTEND:20150110T150000Z
+SUMMARY:Zebre 7 - 31 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio XXV Aprile
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196537
+UID:20150110T150000ZZebre 7 - 31 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150111T140000Z
+DTEND:20150111T140000Z
+SUMMARY:Benetton Treviso 20 - 24 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196536
+UID:20150111T140000ZBenetton Treviso 20 - 24 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150111T160000Z
+DTEND:20150111T160000Z
+SUMMARY:Ospreys 22 - 11 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196539
+UID:20150111T160000ZOspreys 22 - 11 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150213T193500Z
+DTEND:20150213T193500Z
+SUMMARY:Ulster Rugby 43 - 3 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196542
+UID:20150213T193500ZUlster Rugby 43 - 3 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150213T200500
+DTEND:20150213T200500
+SUMMARY:Edinburgh Rugby 24 - 16 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Myreside
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196546
+UID:20150213T200500Edinburgh Rugby 24 - 16 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150214T193500Z
+DTEND:20150214T193500Z
+SUMMARY:Munster Rugby 33 - 16 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Irish Independent Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196544
+UID:20150214T193500ZMunster Rugby 33 - 16 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150215T124500Z
+DTEND:20150215T124500Z
+SUMMARY:Scarlets 32 - 14 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196541
+UID:20150215T124500ZScarlets 32 - 14 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150215T130000Z
+DTEND:20150215T130000Z
+SUMMARY:Zebre 10 - 54 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Sergio Lanfranchi
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196543
+UID:20150215T130000ZZebre 10 - 54 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150215T150000Z
+DTEND:20150215T150000Z
+SUMMARY:Leinster Rugby 14 - 16 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196545
+UID:20150215T150000ZLeinster Rugby 14 - 16 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150220T193500Z
+DTEND:20150220T193500Z
+SUMMARY:Edinburgh Rugby 17 - 20 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196549
+UID:20150220T193500ZEdinburgh Rugby 17 - 20 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150220T193500Z
+DTEND:20150220T193500Z
+SUMMARY:Leinster Rugby 29 - 8 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196550
+UID:20150220T193500ZLeinster Rugby 29 - 8 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150220T190500Z
+DTEND:20150220T190500Z
+SUMMARY:Benetton Treviso 40 - 24 Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196551
+UID:20150220T190500ZBenetton Treviso 40 - 24 Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150221T144000Z
+DTEND:20150221T144000Z
+SUMMARY:Scarlets 25 - 25 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196548
+UID:20150221T144000ZScarlets 25 - 25 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150221T171500Z
+DTEND:20150221T171500Z
+SUMMARY:Glasgow Warriors 19 - 16 Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196552
+UID:20150221T171500ZGlasgow Warriors 19 - 16 Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150222T160000Z
+DTEND:20150222T160000Z
+SUMMARY:Newport Gwent Dragons 25 - 30 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196547
+UID:20150222T160000ZNewport Gwent Dragons 25 - 30 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150227T193500Z
+DTEND:20150227T193500Z
+SUMMARY:Ospreys 9 - 9 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196553
+UID:20150227T193500ZOspreys 9 - 9 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150227T193500Z
+DTEND:20150227T193500Z
+SUMMARY:Ulster Rugby 25 - 20 Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196558
+UID:20150227T193500ZUlster Rugby 25 - 20 Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150228T191500Z
+DTEND:20150228T191500Z
+SUMMARY:Munster Rugby 22 - 10 Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Irish Independent Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196555
+UID:20150228T191500ZMunster Rugby 22 - 10 Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150301T124500Z
+DTEND:20150301T124500Z
+SUMMARY:Cardiff Blues 21 - 15 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196556
+UID:20150301T124500ZCardiff Blues 21 - 15 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150301T171500Z
+DTEND:20150301T171500Z
+SUMMARY:Connacht Rugby 53 - 5 Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196554
+UID:20150301T171500ZConnacht Rugby 53 - 5 Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150301T170000Z
+DTEND:20150301T170000Z
+SUMMARY:Zebre 23 - 17 Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Sergio Lanfranchi
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196557
+UID:20150301T170000ZZebre 23 - 17 Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150306T193500Z
+DTEND:20150306T193500Z
+SUMMARY:Cardiff Blues 18 - 17 Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196559
+UID:20150306T193500ZCardiff Blues 18 - 17 Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150306T193500Z
+DTEND:20150306T193500Z
+SUMMARY:Glasgow Warriors 26 - 5 Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196563
+UID:20150306T193500ZGlasgow Warriors 26 - 5 Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150307T144000Z
+DTEND:20150307T144000Z
+SUMMARY:Ospreys 26 - 12 Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196561
+UID:20150307T144000ZOspreys 26 - 12 Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150307T171500Z
+DTEND:20150307T171500Z
+SUMMARY:Scarlets 23 - 13 Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196560
+UID:20150307T171500ZScarlets 23 - 13 Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150307T180000Z
+DTEND:20150307T180000Z
+SUMMARY:Benetton Treviso 8 - 29 Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196564
+UID:20150307T180000ZBenetton Treviso 8 - 29 Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150308T160000Z
+DTEND:20150308T160000Z
+SUMMARY:Newport Gwent Dragons 26 - 22 Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196562
+UID:20150308T160000ZNewport Gwent Dragons 26 - 22 Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172012Z
+DTSTART:20150327T193500Z
+DTEND:20150327T193500Z
+SUMMARY:Leinster Rugby v Glasgow Warriors TG4/BBC2SC
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196566
+UID:20150327T193500ZLeinster Rugby v Glasgow Warriors TG4/BBC2SC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150327T193500Z
+DTEND:20150327T193500Z
+SUMMARY:Ulster Rugby v Cardiff Blues BBCNI/BBCW
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196568
+UID:20150327T193500ZUlster Rugby v Cardiff Blues BBCNI/BBCW
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150328T144000Z
+DTEND:20150328T144000Z
+SUMMARY:Scarlets v Edinburgh Rugby Sky Sports
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196567
+UID:20150328T144000ZScarlets v Edinburgh Rugby Sky Sports
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150328T171500Z
+DTEND:20150328T171500Z
+SUMMARY:Munster Rugby v Connacht Rugby Sky Sports
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Thomond Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196565
+UID:20150328T171500ZMunster Rugby v Connacht Rugby Sky Sports
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150328T191500Z
+DTEND:20150328T191500Z
+SUMMARY:Ospreys v Zebre S4C/Nuvolari
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196570
+UID:20150328T191500ZOspreys v Zebre S4C/Nuvolari
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150328T193000Z
+DTEND:20150328T193000Z
+SUMMARY:Benetton Treviso v Newport Gwent Dragons Nuvolari
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196569
+UID:20150328T193000ZBenetton Treviso v Newport Gwent Dragons Nuvolari
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150410T183500Z
+DTEND:20150410T183500Z
+SUMMARY:Glasgow Warriors v Cardiff Blues BBC ALBA
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196575
+UID:20150410T183500ZGlasgow Warriors v Cardiff Blues BBC ALBA
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150410T183500Z
+DTEND:20150410T183500Z
+SUMMARY:Benetton Treviso v Ospreys Nuvolri/BBCW
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196576
+UID:20150410T183500ZBenetton Treviso v Ospreys Nuvolri/BBCW
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150411T134000Z
+DTEND:20150411T134000Z
+SUMMARY:Connacht Rugby v Ulster Rugby Sky Sports
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196573
+UID:20150411T134000ZConnacht Rugby v Ulster Rugby Sky Sports
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150411T140000Z
+DTEND:20150411T140000Z
+SUMMARY:Zebre v Scarlets Nuvolari
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Sergio Lanfranchi
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196574
+UID:20150411T140000ZZebre v Scarlets Nuvolari
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150411T183000Z
+DTEND:20150411T183000Z
+SUMMARY:Edinburgh Rugby v Munster Rugby BBC ALBA/TG4
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196572
+UID:20150411T183000ZEdinburgh Rugby v Munster Rugby BBC ALBA/TG4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150412T151500Z
+DTEND:20150412T151500Z
+SUMMARY:Newport Gwent Dragons v Leinster Rugby S4C
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196571
+UID:20150412T151500ZNewport Gwent Dragons v Leinster Rugby S4C
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150424T183500Z
+DTEND:20150424T183500Z
+SUMMARY:Edinburgh Rugby v Zebre ALBA/Nuvolri
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196579
+UID:20150424T183500ZEdinburgh Rugby v Zebre ALBA/Nuvolri
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150424T183500Z
+DTEND:20150424T183500Z
+SUMMARY:Ulster Rugby v Leinster Rugby BBCNI/Sky
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196577
+UID:20150424T183500ZUlster Rugby v Leinster Rugby BBCNI/Sky
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150425T120500Z
+DTEND:20150425T120500Z
+SUMMARY:Connacht Rugby v Glasgow Warriors TG4/BBC ALBA
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196580
+UID:20150425T120500ZConnacht Rugby v Glasgow Warriors TG4/BBC ALBA
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150425T133000Z
+DTEND:20150425T133000Z
+SUMMARY:Cardiff Blues v Ospreys BBCW
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Millennium Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196582
+UID:20150425T133000ZCardiff Blues v Ospreys BBCW
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150425T140500Z
+DTEND:20150425T140500Z
+SUMMARY:Munster Rugby v Benetton Treviso TG4/Nuvolari
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Irish Independent Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196578
+UID:20150425T140500ZMunster Rugby v Benetton Treviso TG4/Nuvolari
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART:20150425T154500Z
+DTEND:20150425T154500Z
+SUMMARY:Newport Gwent Dragons v Scarlets S4C
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Millennium Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196581
+UID:20150425T154500ZNewport Gwent Dragons v Scarlets S4C
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150508
+DTEND;VALUE=DATE:20150509
+SUMMARY:TBC: Leinster Rugby v Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196585
+UID:20150508TBC: Leinster Rugby v Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150509
+DTEND;VALUE=DATE:20150510
+SUMMARY:TBC: Leinster Rugby v Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196585
+UID:20150509TBC: Leinster Rugby v Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150510
+DTEND;VALUE=DATE:20150511
+SUMMARY:TBC: Leinster Rugby v Benetton Treviso
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:RDS Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196585
+UID:20150510TBC: Leinster Rugby v Benetton Treviso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150508
+DTEND;VALUE=DATE:20150509
+SUMMARY:TBC: Newport Gwent Dragons v Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196587
+UID:20150508TBC: Newport Gwent Dragons v Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150509
+DTEND;VALUE=DATE:20150510
+SUMMARY:TBC: Newport Gwent Dragons v Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196587
+UID:20150509TBC: Newport Gwent Dragons v Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150510
+DTEND;VALUE=DATE:20150511
+SUMMARY:TBC: Newport Gwent Dragons v Edinburgh Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Rodney Parade
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196587
+UID:20150510TBC: Newport Gwent Dragons v Edinburgh Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150508
+DTEND;VALUE=DATE:20150509
+SUMMARY:TBC: Ospreys v Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196586
+UID:20150508TBC: Ospreys v Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150509
+DTEND;VALUE=DATE:20150510
+SUMMARY:TBC: Ospreys v Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196586
+UID:20150509TBC: Ospreys v Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150510
+DTEND;VALUE=DATE:20150511
+SUMMARY:TBC: Ospreys v Glasgow Warriors
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Liberty Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196586
+UID:20150510TBC: Ospreys v Glasgow Warriors
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150508
+DTEND;VALUE=DATE:20150509
+SUMMARY:TBC: Scarlets v Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196588
+UID:20150508TBC: Scarlets v Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150509
+DTEND;VALUE=DATE:20150510
+SUMMARY:TBC: Scarlets v Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196588
+UID:20150509TBC: Scarlets v Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150510
+DTEND;VALUE=DATE:20150511
+SUMMARY:TBC: Scarlets v Cardiff Blues
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Parc y Scarlets
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196588
+UID:20150510TBC: Scarlets v Cardiff Blues
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150508
+DTEND;VALUE=DATE:20150509
+SUMMARY:TBC: Ulster Rugby v Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196584
+UID:20150508TBC: Ulster Rugby v Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150509
+DTEND;VALUE=DATE:20150510
+SUMMARY:TBC: Ulster Rugby v Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196584
+UID:20150509TBC: Ulster Rugby v Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150510
+DTEND;VALUE=DATE:20150511
+SUMMARY:TBC: Ulster Rugby v Munster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Kingspan Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196584
+UID:20150510TBC: Ulster Rugby v Munster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150508
+DTEND;VALUE=DATE:20150509
+SUMMARY:TBC: Zebre v Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Sergio Lanfranchi
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196583
+UID:20150508TBC: Zebre v Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150509
+DTEND;VALUE=DATE:20150510
+SUMMARY:TBC: Zebre v Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Sergio Lanfranchi
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196583
+UID:20150509TBC: Zebre v Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150510
+DTEND;VALUE=DATE:20150511
+SUMMARY:TBC: Zebre v Connacht Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Sergio Lanfranchi
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196583
+UID:20150510TBC: Zebre v Connacht Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150515
+DTEND;VALUE=DATE:20150516
+SUMMARY:TBC: Benetton Treviso v Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196593
+UID:20150515TBC: Benetton Treviso v Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150516
+DTEND;VALUE=DATE:20150517
+SUMMARY:TBC: Benetton Treviso v Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196593
+UID:20150516TBC: Benetton Treviso v Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150517
+DTEND;VALUE=DATE:20150518
+SUMMARY:TBC: Benetton Treviso v Scarlets
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Stadio Monigo
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196593
+UID:20150517TBC: Benetton Treviso v Scarlets
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150515
+DTEND;VALUE=DATE:20150516
+SUMMARY:TBC: Cardiff Blues v Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196591
+UID:20150515TBC: Cardiff Blues v Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150516
+DTEND;VALUE=DATE:20150517
+SUMMARY:TBC: Cardiff Blues v Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196591
+UID:20150516TBC: Cardiff Blues v Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150517
+DTEND;VALUE=DATE:20150518
+SUMMARY:TBC: Cardiff Blues v Zebre
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Sport Cardiff Arms Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196591
+UID:20150517TBC: Cardiff Blues v Zebre
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150515
+DTEND;VALUE=DATE:20150516
+SUMMARY:TBC: Connacht Rugby v Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196594
+UID:20150515TBC: Connacht Rugby v Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150516
+DTEND;VALUE=DATE:20150517
+SUMMARY:TBC: Connacht Rugby v Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196594
+UID:20150516TBC: Connacht Rugby v Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150517
+DTEND;VALUE=DATE:20150518
+SUMMARY:TBC: Connacht Rugby v Ospreys
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Sportsground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196594
+UID:20150517TBC: Connacht Rugby v Ospreys
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150515
+DTEND;VALUE=DATE:20150516
+SUMMARY:TBC: Edinburgh Rugby v Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196589
+UID:20150515TBC: Edinburgh Rugby v Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150516
+DTEND;VALUE=DATE:20150517
+SUMMARY:TBC: Edinburgh Rugby v Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196589
+UID:20150516TBC: Edinburgh Rugby v Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150517
+DTEND;VALUE=DATE:20150518
+SUMMARY:TBC: Edinburgh Rugby v Leinster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:BT Murrayfield
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196589
+UID:20150517TBC: Edinburgh Rugby v Leinster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150515
+DTEND;VALUE=DATE:20150516
+SUMMARY:TBC: Glasgow Warriors v Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196590
+UID:20150515TBC: Glasgow Warriors v Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150516
+DTEND;VALUE=DATE:20150517
+SUMMARY:TBC: Glasgow Warriors v Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196590
+UID:20150516TBC: Glasgow Warriors v Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150517
+DTEND;VALUE=DATE:20150518
+SUMMARY:TBC: Glasgow Warriors v Ulster Rugby
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Scotstoun Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196590
+UID:20150517TBC: Glasgow Warriors v Ulster Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150515
+DTEND;VALUE=DATE:20150516
+SUMMARY:TBC: Munster Rugby v Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Irish Independent Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196592
+UID:20150515TBC: Munster Rugby v Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150516
+DTEND;VALUE=DATE:20150517
+SUMMARY:TBC: Munster Rugby v Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Irish Independent Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196592
+UID:20150516TBC: Munster Rugby v Newport Gwent Dragons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150322T172013Z
+DTSTART;VALUE=DATE:20150517
+DTEND;VALUE=DATE:20150518
+SUMMARY:TBC: Munster Rugby v Newport Gwent Dragons
+DESCRIPTION:Competition - Guinness PRO12
+LOCATION:Irish Independent Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196592
+UID:20150517TBC: Munster Rugby v Newport Gwent Dragons
+END:VEVENT
+END:VCALENDAR

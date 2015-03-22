@@ -122,4 +122,32 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
             'example.ics'
         ));
     }
+
+    protected function getCalendarWithPro12FixtureData()
+    {
+        $file = $this->getPro12FixtureDataFileName();
+
+        if (!file_exists($file)) {
+            throw new \Exception("Could not load fixture file $file");
+        }
+
+        if (!is_readable($file)) {
+            throw new \Exception("Could not read fixture file $file");
+        }
+
+        return new Calendar(file_get_contents($file));
+    }
+
+    protected function getPro12FixtureDataFileName()
+    {
+        return join(DIRECTORY_SEPARATOR, array(
+            __DIR__,
+            '..',
+            '..',
+            '..',
+            'test',
+            'fixtures',
+            'example.ics'
+        ));
+    }
 }

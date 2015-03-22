@@ -31,6 +31,7 @@ class Event
         if (isset($array['SUMMARY'])) {
             $summary = $array['SUMMARY'];
             $summary = str_replace('BT Sport', '', $summary);
+            $summary = preg_replace('![/A-Z0-9]{1,}$!', '', $summary);
 
             $is_fixture = preg_match(self::REGEX_FIXTURE, $summary, $fixture_match);
 

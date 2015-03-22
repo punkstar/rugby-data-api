@@ -46,6 +46,41 @@ class EventTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('Saracens', $event->getAwayTeam()->name);
     }
 
+    public function testBbcNiStripped()
+    {
+        $data = array(
+            'SUMMARY' => 'Ulster Rugby v Edinburgh Rugby BBCNI/ALBA'
+        );
+
+        $event = Event::buildFromArray($data);
+
+        $this->assertEquals('Ulster Rugby', $event->getHomeTeam()->name);
+        $this->assertEquals('Edinburgh Rugby', $event->getAwayTeam()->name);
+    }
+
+    public function testTg4Stripped() {
+        $data = array(
+            'SUMMARY' => 'Leinster Rugby v Glasgow Warriors TG4/BBC2SC'
+        );
+
+        $event = Event::buildFromArray($data);
+
+        $this->assertEquals('Leinster Rugby', $event->getHomeTeam()->name);
+        $this->assertEquals('Glasgow Warriors', $event->getAwayTeam()->name);
+    }
+
+    public function testBbcWStripped()
+    {
+        $data = array(
+            'SUMMARY' => 'Cardiff Blues v Ospreys BBCW'
+        );
+
+        $event = Event::buildFromArray($data);
+
+        $this->assertEquals('Cardiff Blues', $event->getHomeTeam()->name);
+        $this->assertEquals('Ospreys', $event->getAwayTeam()->name);
+    }
+
     /**
      * @test
      */
