@@ -15,8 +15,8 @@ class EventTest extends \PHPUnit_Framework_TestCase
 
         $event = Event::buildFromArray($data);
 
-        $this->assertEquals('Northampton Saints', $event->getHomeTeam());
-        $this->assertEquals('Gloucester Rugby', $event->getAwayTeam());
+        $this->assertEquals('Northampton Saints', $event->getHomeTeam()->name);
+        $this->assertEquals('Gloucester Rugby', $event->getAwayTeam()->name);
     }
 
     /**
@@ -30,8 +30,8 @@ class EventTest extends \PHPUnit_Framework_TestCase
 
         $event = Event::buildFromArray($data);
 
-        $this->assertEquals('Newcastle Falcons', $event->getHomeTeam());
-        $this->assertEquals('Harlequins', $event->getAwayTeam());
+        $this->assertEquals('Newcastle Falcons', $event->getHomeTeam()->name);
+        $this->assertEquals('Harlequins', $event->getAwayTeam()->name);
     }
 
     public function testBtSportStripped()
@@ -42,8 +42,8 @@ class EventTest extends \PHPUnit_Framework_TestCase
 
         $event = Event::buildFromArray($data);
 
-        $this->assertEquals('Harlequins', $event->getHomeTeam());
-        $this->assertEquals('Saracens', $event->getAwayTeam());
+        $this->assertEquals('Harlequins', $event->getHomeTeam()->name);
+        $this->assertEquals('Saracens', $event->getAwayTeam()->name);
     }
 
     /**

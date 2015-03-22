@@ -10,4 +10,9 @@ class Team
     {
         $this->name = $name;
     }
+
+    public function getUrlKey()
+    {
+        return strtolower($this->name);
+    }
 }

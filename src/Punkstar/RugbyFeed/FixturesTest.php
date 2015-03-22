@@ -37,8 +37,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertNotNull($next_fixture);
 
-        $this->assertEquals($next_fixture->getHomeTeam(), "Sale Sharks");
-        $this->assertEquals($next_fixture->getAwayTeam(), "Bath Rugby");
+        $this->assertEquals($next_fixture->getHomeTeam()->name, "Sale Sharks");
+        $this->assertEquals($next_fixture->getAwayTeam()->name, "Bath Rugby");
     }
 
     /**
@@ -56,8 +56,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertNotNull($next_fixture);
 
-        $this->assertEquals($next_fixture->getHomeTeam(), "Bath Rugby");
-        $this->assertEquals($next_fixture->getAwayTeam(), "London Welsh");
+        $this->assertEquals($next_fixture->getHomeTeam()->name, "Bath Rugby");
+        $this->assertEquals($next_fixture->getAwayTeam()->name, "London Welsh");
     }
 
     /**
@@ -75,8 +75,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertNotNull($next_fixture);
 
-        $this->assertEquals($next_fixture->getHomeTeam(), "Bath Rugby");
-        $this->assertEquals($next_fixture->getAwayTeam(), "London Welsh");
+        $this->assertEquals($next_fixture->getHomeTeam()->name, "Bath Rugby");
+        $this->assertEquals($next_fixture->getAwayTeam()->name, "London Welsh");
     }
 
     /**

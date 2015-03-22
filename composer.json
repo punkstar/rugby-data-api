@@ -1,14 +1,17 @@
 {
   "require": {
     "johngrogg/ics-parser": "*",
-    "guzzlehttp/guzzle": "*"
+    "guzzlehttp/guzzle": "*",
+    "silex/silex": "~1.2",
+    "league/fractal": "0.*"
   },
   "require-dev": {
     "phpunit/phpunit": "*"
   },
   "autoload": {
     "psr-0": {
-      "Punkstar\\RugbyFeed": "src/"
+      "Punkstar\\RugbyFeed": "src/",
+      "Punkstar\\RugbyFeedService": "src/"
     }
   }
 }

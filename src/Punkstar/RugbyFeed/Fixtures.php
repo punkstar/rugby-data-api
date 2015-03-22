@@ -24,7 +24,7 @@ class Fixtures
 
         foreach ($this->calendar->getEvents() as $event)
         {
-            if ($team->name == $event->getAwayTeam() || $team->name == $event->getHomeTeam()) {
+            if ($team->name == $event->getAwayTeam()->name || $team->name == $event->getHomeTeam()->name) {
                 $events[] = $event;
             }
         }

@@ -2,6 +2,8 @@
 
 namespace Punkstar\RugbyFeed\Calendar;
 
+use Punkstar\RugbyFeed\Team;
+
 class Event
 {
     const REGEX_RESULT  = '/^(.*?) (\d+) - (\d+) (.*?)$/';
@@ -35,16 +37,16 @@ class Event
             if ($is_fixture) {
                 list($full_match, $home_team, $away_team) = $fixture_match;
 
-                $obj->home_team = trim($home_team);
-                $obj->away_team = trim($away_team);
+                $obj->home_team = new Team(trim($home_team));
+                $obj->away_team = new Team(trim($away_team));
             } else {
                 $is_result = preg_match(self::REGEX_RESULT, $summary, $result_match);
 
                 if ($is_result) {
                     list($full_match, $home_team, $home_score, $away_score, $away_team) = $result_match;
 
-                    $obj->home_team = trim($home_team);
-                    $obj->away_team = trim($away_team);
+                    $obj->home_team = new Team(trim($home_team));
+                    $obj->away_team = new Team(trim($away_team));
                     $obj->home_score = trim($home_score);
                     $obj->away_score = trim($away_score);
                 }

@@ -2,6 +2,7 @@
 
 namespace Punkstar\RugbyFeed;
 
+use GuzzleHttp\Client;
 use JMBTechnologyLimited\ICalDissect\ICalParser;
 use Punkstar\RugbyFeed\Calendar\Event;
 
@@ -16,6 +17,16 @@ class Calendar
         file_put_contents($filename, $ical_data);
 
         $this->ical_file = $filename;
+    }
+
+    /**
+     * @param $url
+     * @throws \Exception
+     */
+    public static function fromUrl($url)
+    {
+        $fm = new FileManager();
+        return new self($fm->getFileFromUrl($url));
     }
 
     /**
