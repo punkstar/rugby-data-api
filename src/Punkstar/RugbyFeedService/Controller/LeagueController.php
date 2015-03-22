@@ -20,7 +20,7 @@ class LeagueController implements ControllerProviderInterface
         // creates a new controller based on the default route
         $controllers = $app['controllers_factory'];
 
-        $controllers->get('/{league_name_in_url}/fixtures', function (Application $app, $league_name_in_url) {
+        $controllers->get('/{league_name_in_url}', function (Application $app, $league_name_in_url) {
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
 
@@ -48,7 +48,7 @@ class LeagueController implements ControllerProviderInterface
             $data_container = new Collection($league->getFixtures(), new EventTransformer($league));
 
             $data_container->setMetaValue('rel', 'self');
-            $data_container->setMetaValue('uri', sprintf('/%s/fixtures', $league->getUrlKey()));
+            $data_container->setMetaValue('uri', sprintf('/fixtures/%s', $league->getUrlKey()));
 
             return new Response(
                 $fractal->createData($data_container)->toJson(),
@@ -59,7 +59,7 @@ class LeagueController implements ControllerProviderInterface
             );
         });
 
-        $controllers->get('/{league_name_in_url}/{team_name_in_url}/fixtures', function (Application $app, $league_name_in_url, $team_name_in_url) {
+        $controllers->get('/{league_name_in_url}/{team_name_in_url}', function (Application $app, $league_name_in_url, $team_name_in_url) {
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
 

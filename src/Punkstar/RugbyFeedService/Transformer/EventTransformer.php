@@ -28,7 +28,7 @@ class EventTransformer extends TransformerAbstract
                 [
                     'rel' => 'home_team_fixtures',
                     'uri' => sprintf(
-                        "%s/%s/fixtures",
+                        "/fixtures/%s/%s",
                         $this->league->getUrlKey(),
                         $event->home_team->getUrlKey()
                     )
@@ -36,7 +36,7 @@ class EventTransformer extends TransformerAbstract
                 [
                     'rel' => 'away_team_fixtures',
                     'uri' => sprintf(
-                        "%s/%s/fixtures",
+                        "/fixtures/%s/%s",
                         $this->league->getUrlKey(),
                         $event->away_team->getUrlKey()
                     )
