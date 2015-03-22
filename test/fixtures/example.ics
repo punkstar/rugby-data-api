@@ -1,0 +1,1329 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sotic Ltd//EN
+METHOD:PUBLISH
+X-PRIMARY-CALENDAR:TRUE
+X-MS-OLK-WKHRSTART;TZID="GMT Standard Time":080000
+X-MS-OLK-WKHREND;TZID="GMT Standard Time":170000
+X-MS-OLK-WKHRDAYS:MO,TU,WE,TH,FR
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140905T184500Z
+DTEND:20140905T184500Z
+SUMMARY:Northampton Saints 53 - 6 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196235
+UID:20140905T184500ZNorthampton Saints 53 - 6 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140906T130000Z
+DTEND:20140906T130000Z
+SUMMARY:Sale Sharks 20 - 29 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196236
+UID:20140906T130000ZSale Sharks 20 - 29 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140906T130000Z
+DTEND:20140906T130000Z
+SUMMARY:Saracens 34 - 28 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196237
+UID:20140906T130000ZSaracens 34 - 28 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140906T140000Z
+DTEND:20140906T140000Z
+SUMMARY:Leicester Tigers 36 - 17 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196232
+UID:20140906T140000ZLeicester Tigers 36 - 17 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140906T153000Z
+DTEND:20140906T153000Z
+SUMMARY:London Irish 15 - 20 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196233
+UID:20140906T153000ZLondon Irish 15 - 20 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140907T130000Z
+DTEND:20140907T130000Z
+SUMMARY:London Welsh v Exeter Chiefs BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196234
+UID:20140907T130000ZLondon Welsh v Exeter Chiefs BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140912T184500Z
+DTEND:20140912T184500Z
+SUMMARY:Harlequins v Saracens BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196241
+UID:20140912T184500ZHarlequins v Saracens BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140913T140000Z
+DTEND:20140913T140000Z
+SUMMARY:Bath Rugby 53 - 26 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196238
+UID:20140913T140000ZBath Rugby 53 - 26 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140913T140000Z
+DTEND:20140913T140000Z
+SUMMARY:Gloucester Rugby 34 - 27 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196240
+UID:20140913T140000ZGloucester Rugby 34 - 27 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140913T141500Z
+DTEND:20140913T141500Z
+SUMMARY:Exeter Chiefs 20 - 24 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196239
+UID:20140913T141500ZExeter Chiefs 20 - 24 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140914T130000Z
+DTEND:20140914T130000Z
+SUMMARY:Wasps 20 - 16 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Adams Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196243
+UID:20140914T130000ZWasps 20 - 16 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140914T140000Z
+DTEND:20140914T140000Z
+SUMMARY:Newcastle Falcons 18 - 20 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196242
+UID:20140914T140000ZNewcastle Falcons 18 - 20 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140919T184500Z
+DTEND:20140919T184500Z
+SUMMARY:Gloucester Rugby 22 - 25 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196245
+UID:20140919T184500ZGloucester Rugby 22 - 25 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140920T130000Z
+DTEND:20140920T130000Z
+SUMMARY:Sale Sharks 46 - 8 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196249
+UID:20140920T130000ZSale Sharks 46 - 8 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140920T140000Z
+DTEND:20140920T140000Z
+SUMMARY:Harlequins 26 - 23 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196246
+UID:20140920T140000ZHarlequins 26 - 23 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140920T140000Z
+DTEND:20140920T140000Z
+SUMMARY:London Irish 32 - 36 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196247
+UID:20140920T140000ZLondon Irish 32 - 36 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140920T141500Z
+DTEND:20140920T141500Z
+SUMMARY:Bath Rugby v Leicester Tigers BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196244
+UID:20140920T141500ZBath Rugby v Leicester Tigers BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140921T130000Z
+DTEND:20140921T130000Z
+SUMMARY:Newcastle Falcons 10 - 35 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196248
+UID:20140921T130000ZNewcastle Falcons 10 - 35 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140926T184500Z
+DTEND:20140926T184500Z
+SUMMARY:London Welsh 10 - 46 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196252
+UID:20140926T184500ZLondon Welsh 10 - 46 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140927T140000Z
+DTEND:20140927T140000Z
+SUMMARY:Leicester Tigers 19 - 22 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196251
+UID:20140927T140000ZLeicester Tigers 19 - 22 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140927T140000Z
+DTEND:20140927T140000Z
+SUMMARY:Saracens 40 - 19 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196254
+UID:20140927T140000ZSaracens 40 - 19 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140927T141500Z
+DTEND:20140927T141500Z
+SUMMARY:Northampton Saints 31 - 24 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196253
+UID:20140927T141500ZNorthampton Saints 31 - 24 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140928T130000Z
+DTEND:20140928T130000Z
+SUMMARY:Exeter Chiefs 36 - 13 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196250
+UID:20140928T130000ZExeter Chiefs 36 - 13 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20140928T130000Z
+DTEND:20140928T130000Z
+SUMMARY:Wasps 35 - 18 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Adams Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196255
+UID:20140928T130000ZWasps 35 - 18 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141003T184500Z
+DTEND:20141003T184500Z
+SUMMARY:Bath Rugby 21 - 11 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196256
+UID:20141003T184500ZBath Rugby 21 - 11 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141004T140000Z
+DTEND:20141004T140000Z
+SUMMARY:Harlequins v London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196258
+UID:20141004T140000ZHarlequins v London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141004T140000Z
+DTEND:20141004T140000Z
+SUMMARY:London Irish 12 - 19 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196259
+UID:20141004T140000ZLondon Irish 12 - 19 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141004T141500Z
+DTEND:20141004T141500Z
+SUMMARY:Gloucester Rugby 33 - 16 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196257
+UID:20141004T141500ZGloucester Rugby 33 - 16 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141005T130000Z
+DTEND:20141005T130000Z
+SUMMARY:Sale Sharks 25 - 14 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196261
+UID:20141005T130000ZSale Sharks 25 - 14 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141005T140000Z
+DTEND:20141005T140000Z
+SUMMARY:Newcastle Falcons 29 - 24 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196260
+UID:20141005T140000ZNewcastle Falcons 29 - 24 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141010T184500Z
+DTEND:20141010T184500Z
+SUMMARY:Leicester Tigers 22 - 16 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196263
+UID:20141010T184500ZLeicester Tigers 22 - 16 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141011T133000Z
+DTEND:20141011T133000Z
+SUMMARY:London Welsh 3 - 23 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196264
+UID:20141011T133000ZLondon Welsh 3 - 23 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141011T140000Z
+DTEND:20141011T140000Z
+SUMMARY:Exeter Chiefs 44 - 24 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196262
+UID:20141011T140000ZExeter Chiefs 44 - 24 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141011T140000Z
+DTEND:20141011T140000Z
+SUMMARY:Saracens 28 - 21 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196266
+UID:20141011T140000ZSaracens 28 - 21 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141011T141500Z
+DTEND:20141011T141500Z
+SUMMARY:Northampton Saints 43 - 10 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196265
+UID:20141011T141500ZNorthampton Saints 43 - 10 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141012T130000Z
+DTEND:20141012T130000Z
+SUMMARY:Wasps 29 - 22 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Adams Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196267
+UID:20141012T130000ZWasps 29 - 22 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141114T194500Z
+DTEND:20141114T194500Z
+SUMMARY:Gloucester Rugby 15 - 22 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196269
+UID:20141114T194500ZGloucester Rugby 15 - 22 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141114T194500Z
+DTEND:20141114T194500Z
+SUMMARY:Northampton Saints 18 - 24 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196271
+UID:20141114T194500ZNorthampton Saints 18 - 24 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141115T120000Z
+DTEND:20141115T120000Z
+SUMMARY:Sale Sharks 36 - 8 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196272
+UID:20141115T120000ZSale Sharks 36 - 8 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141115T170000Z
+DTEND:20141115T170000Z
+SUMMARY:Bath Rugby 23 - 14 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196268
+UID:20141115T170000ZBath Rugby 23 - 14 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141116T130000Z
+DTEND:20141116T130000Z
+SUMMARY:Leicester Tigers 21 - 21 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196270
+UID:20141116T130000ZLeicester Tigers 21 - 21 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141116T151500Z
+DTEND:20141116T151500Z
+SUMMARY:Wasps 71 - 7 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Adams Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196273
+UID:20141116T151500ZWasps 71 - 7 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141121T194500Z
+DTEND:20141121T194500Z
+SUMMARY:Harlequins 12 - 16 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196275
+UID:20141121T194500ZHarlequins 12 - 16 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141121T200000Z
+DTEND:20141121T200000Z
+SUMMARY:Newcastle Falcons 20 - 10 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196278
+UID:20141121T200000ZNewcastle Falcons 20 - 10 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141122T150000Z
+DTEND:20141122T150000Z
+SUMMARY:Exeter Chiefs 31 - 15 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196274
+UID:20141122T150000ZExeter Chiefs 31 - 15 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141122T150000Z
+DTEND:20141122T150000Z
+SUMMARY:London Irish 23 - 33 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196276
+UID:20141122T150000ZLondon Irish 23 - 33 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141123T130000Z
+DTEND:20141123T130000Z
+SUMMARY:Saracens 24 - 31 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196279
+UID:20141123T130000ZSaracens 24 - 31 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141123T151500Z
+DTEND:20141123T151500Z
+SUMMARY:London Welsh 5 - 26 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196277
+UID:20141123T151500ZLondon Welsh 5 - 26 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141128T194500Z
+DTEND:20141128T194500Z
+SUMMARY:Bath Rugby 25 - 6 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196280
+UID:20141128T194500ZBath Rugby 25 - 6 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141129T150000Z
+DTEND:20141129T150000Z
+SUMMARY:Leicester Tigers 18 - 16 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196282
+UID:20141129T150000ZLeicester Tigers 18 - 16 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141129T163000Z
+DTEND:20141129T163000Z
+SUMMARY:Exeter Chiefs 27 - 19 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196281
+UID:20141129T163000ZExeter Chiefs 27 - 19 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141130T130000Z
+DTEND:20141130T130000Z
+SUMMARY:London Irish 9 - 21 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196283
+UID:20141130T130000ZLondon Irish 9 - 21 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141130T143000Z
+DTEND:20141130T143000Z
+SUMMARY:London Welsh 14 - 43 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196284
+UID:20141130T143000ZLondon Welsh 14 - 43 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141130T151500Z
+DTEND:20141130T151500Z
+SUMMARY:Newcastle Falcons 13 - 18 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196285
+UID:20141130T151500ZNewcastle Falcons 13 - 18 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141219T194500Z
+DTEND:20141219T194500Z
+SUMMARY:Sale Sharks 18 - 11 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196289
+UID:20141219T194500ZSale Sharks 18 - 11 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141220T150000Z
+DTEND:20141220T150000Z
+SUMMARY:Harlequins 15 - 7 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196287
+UID:20141220T150000ZHarlequins 15 - 7 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141220T150000Z
+DTEND:20141220T150000Z
+SUMMARY:Saracens 78 - 7 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196290
+UID:20141220T150000ZSaracens 78 - 7 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141220T151500Z
+DTEND:20141220T151500Z
+SUMMARY:Northampton Saints 23 - 19 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196288
+UID:20141220T151500ZNorthampton Saints 23 - 19 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190214Z
+DTSTART:20141220T173000Z
+DTEND:20141220T173000Z
+SUMMARY:Gloucester Rugby 16 - 39 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196286
+UID:20141220T173000ZGloucester Rugby 16 - 39 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141221T140000Z
+DTEND:20141221T140000Z
+SUMMARY:Wasps 48 - 16 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196291
+UID:20141221T140000ZWasps 48 - 16 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141226T150000Z
+DTEND:20141226T150000Z
+SUMMARY:London Irish 24 - 9 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196295
+UID:20141226T150000ZLondon Irish 24 - 9 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141227T140000Z
+DTEND:20141227T140000Z
+SUMMARY:Bath Rugby 31 - 14 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196292
+UID:20141227T140000ZBath Rugby 31 - 14 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141227T140000Z
+DTEND:20141227T140000Z
+SUMMARY:Sale Sharks 30 - 32 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196297
+UID:20141227T140000ZSale Sharks 30 - 32 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141227T150000Z
+DTEND:20141227T150000Z
+SUMMARY:Newcastle Falcons 23 - 25 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196296
+UID:20141227T150000ZNewcastle Falcons 23 - 25 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141227T163000Z
+DTEND:20141227T163000Z
+SUMMARY:Harlequins 25 - 30 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196294
+UID:20141227T163000ZHarlequins 25 - 30 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20141228T143000Z
+DTEND:20141228T143000Z
+SUMMARY:Gloucester Rugby 23 - 30 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196293
+UID:20141228T143000ZGloucester Rugby 23 - 30 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150102T194500Z
+DTEND:20150102T194500Z
+SUMMARY:Northampton Saints 39 - 31 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196301
+UID:20150102T194500ZNorthampton Saints 39 - 31 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150103T140000Z
+DTEND:20150103T140000Z
+SUMMARY:Saracens 22 - 6 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196302
+UID:20150103T140000ZSaracens 22 - 6 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150103T163000Z
+DTEND:20150103T163000Z
+SUMMARY:Exeter Chiefs 25 - 26 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196298
+UID:20150103T163000ZExeter Chiefs 25 - 26 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150104T140000Z
+DTEND:20150104T140000Z
+SUMMARY:Leicester Tigers 17 - 8 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196299
+UID:20150104T140000ZLeicester Tigers 17 - 8 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150104T140000Z
+DTEND:20150104T140000Z
+SUMMARY:Wasps 41 - 16 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196303
+UID:20150104T140000ZWasps 41 - 16 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150104T143000Z
+DTEND:20150104T143000Z
+SUMMARY:London Welsh 13 - 24 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196300
+UID:20150104T143000ZLondon Welsh 13 - 24 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150109T194500Z
+DTEND:20150109T194500Z
+SUMMARY:Gloucester Rugby 24 - 23 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196305
+UID:20150109T194500ZGloucester Rugby 24 - 23 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150110T140000Z
+DTEND:20150110T140000Z
+SUMMARY:Sale Sharks 20 - 7 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196309
+UID:20150110T140000ZSale Sharks 20 - 7 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150110T150000Z
+DTEND:20150110T150000Z
+SUMMARY:Bath Rugby 39 - 26 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196304
+UID:20150110T150000ZBath Rugby 39 - 26 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150110T151500Z
+DTEND:20150110T151500Z
+SUMMARY:Harlequins 32 - 12 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196306
+UID:20150110T151500ZHarlequins 32 - 12 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150111T140000Z
+DTEND:20150111T140000Z
+SUMMARY:Newcastle Falcons 38 - 7 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196308
+UID:20150111T140000ZNewcastle Falcons 38 - 7 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150111T150000Z
+DTEND:20150111T150000Z
+SUMMARY:London Irish 28 - 26 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196307
+UID:20150111T150000ZLondon Irish 28 - 26 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150213T194500Z
+DTEND:20150213T194500Z
+SUMMARY:Leicester Tigers 18 - 15 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196311
+UID:20150213T194500ZLeicester Tigers 18 - 15 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150213T194500Z
+DTEND:20150213T194500Z
+SUMMARY:Northampton Saints 15 - 9 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196313
+UID:20150213T194500ZNorthampton Saints 15 - 9 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150214T163000Z
+DTEND:20150214T163000Z
+SUMMARY:Exeter Chiefs 46 - 17 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196310
+UID:20150214T163000ZExeter Chiefs 46 - 17 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150215T130000Z
+DTEND:20150215T130000Z
+SUMMARY:London Welsh 12 - 52 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196312
+UID:20150215T130000ZLondon Welsh 12 - 52 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150215T130000Z
+DTEND:20150215T130000Z
+SUMMARY:Saracens 34 - 24 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196314
+UID:20150215T130000ZSaracens 34 - 24 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150215T140000Z
+DTEND:20150215T140000Z
+SUMMARY:Wasps 37 - 6 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196315
+UID:20150215T140000ZWasps 37 - 6 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150220T194500Z
+DTEND:20150220T194500Z
+SUMMARY:Newcastle Falcons 23 - 23 Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196320
+UID:20150220T194500ZNewcastle Falcons 23 - 23 Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150221T140000Z
+DTEND:20150221T140000Z
+SUMMARY:Sale Sharks 14 - 10 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196321
+UID:20150221T140000ZSale Sharks 14 - 10 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150221T150000Z
+DTEND:20150221T150000Z
+SUMMARY:Gloucester Rugby 48 - 10 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196317
+UID:20150221T150000ZGloucester Rugby 48 - 10 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150221T150000Z
+DTEND:20150221T150000Z
+SUMMARY:Harlequins 21 - 32 Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196318
+UID:20150221T150000ZHarlequins 21 - 32 Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150221T151500Z
+DTEND:20150221T151500Z
+SUMMARY:Bath Rugby 13 - 21 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196316
+UID:20150221T151500ZBath Rugby 13 - 21 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150222T140000Z
+DTEND:20150222T140000Z
+SUMMARY:London Irish 6 - 12 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196319
+UID:20150222T140000ZLondon Irish 6 - 12 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150227T194500Z
+DTEND:20150227T194500Z
+SUMMARY:Northampton Saints 17 - 13 Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196325
+UID:20150227T194500ZNorthampton Saints 17 - 13 Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150228T143000Z
+DTEND:20150228T143000Z
+SUMMARY:London Welsh 12 - 50 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196324
+UID:20150228T143000ZLondon Welsh 12 - 50 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150228T150000Z
+DTEND:20150228T150000Z
+SUMMARY:Leicester Tigers 28 - 8 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196323
+UID:20150228T150000ZLeicester Tigers 28 - 8 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150228T150000Z
+DTEND:20150228T150000Z
+SUMMARY:Saracens 22 - 17 Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196326
+UID:20150228T150000ZSaracens 22 - 17 Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150228T151500Z
+DTEND:20150228T151500Z
+SUMMARY:Exeter Chiefs 16 - 6 Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196322
+UID:20150228T151500ZExeter Chiefs 16 - 6 Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150301T130000Z
+DTEND:20150301T130000Z
+SUMMARY:Wasps 32 - 21 Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196327
+UID:20150301T130000ZWasps 32 - 21 Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150306T194500Z
+DTEND:20150306T194500Z
+SUMMARY:Bath Rugby 12 - 3 Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196328
+UID:20150306T194500ZBath Rugby 12 - 3 Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150307T150000Z
+DTEND:20150307T150000Z
+SUMMARY:Exeter Chiefs 74 - 19 London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196329
+UID:20150307T150000ZExeter Chiefs 74 - 19 London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150307T150000Z
+DTEND:20150307T150000Z
+SUMMARY:Harlequins 26 - 20 London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196331
+UID:20150307T150000ZHarlequins 26 - 20 London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150307T151500Z
+DTEND:20150307T151500Z
+SUMMARY:Gloucester Rugby 33 - 33 Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196330
+UID:20150307T151500ZGloucester Rugby 33 - 33 Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150308T140000Z
+DTEND:20150308T140000Z
+SUMMARY:Wasps 17 - 26 Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196333
+UID:20150308T140000ZWasps 17 - 26 Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150308T150000Z
+DTEND:20150308T150000Z
+SUMMARY:Newcastle Falcons 12 - 16 Leicester Tigers
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196332
+UID:20150308T150000ZNewcastle Falcons 12 - 16 Leicester Tigers
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150327T194500Z
+DTEND:20150327T194500Z
+SUMMARY:Northampton Saints v Wasps BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196337
+UID:20150327T194500ZNorthampton Saints v Wasps BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150328T150000Z
+DTEND:20150328T150000Z
+SUMMARY:Leicester Tigers v Exeter Chiefs
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196334
+UID:20150328T150000ZLeicester Tigers v Exeter Chiefs
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150328T150000Z
+DTEND:20150328T150000Z
+SUMMARY:London Irish v Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196335
+UID:20150328T150000ZLondon Irish v Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150328T151500Z
+DTEND:20150328T151500Z
+SUMMARY:Saracens v Harlequins BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Wembley Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196339
+UID:20150328T151500ZSaracens v Harlequins BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150329T130000Z
+DTEND:20150329T130000Z
+SUMMARY:Sale Sharks v Gloucester Rugby BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196338
+UID:20150329T130000ZSale Sharks v Gloucester Rugby BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150329T133000Z
+DTEND:20150329T133000Z
+SUMMARY:London Welsh v Bath Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196336
+UID:20150329T133000ZLondon Welsh v Bath Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150410T184500Z
+DTEND:20150410T184500Z
+SUMMARY:Newcastle Falcons v Bath Rugby BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196344
+UID:20150410T184500ZNewcastle Falcons v Bath Rugby BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150411T140000Z
+DTEND:20150411T140000Z
+SUMMARY:Harlequins v Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196341
+UID:20150411T140000ZHarlequins v Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150411T141500Z
+DTEND:20150411T141500Z
+SUMMARY:Saracens v Leicester Tigers BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196345
+UID:20150411T141500ZSaracens v Leicester Tigers BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190215Z
+DTSTART:20150412T130000Z
+DTEND:20150412T130000Z
+SUMMARY:Exeter Chiefs v Northampton Saints BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196340
+UID:20150412T130000ZExeter Chiefs v Northampton Saints BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150412T133000Z
+DTEND:20150412T133000Z
+SUMMARY:London Welsh v Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196343
+UID:20150412T133000ZLondon Welsh v Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150412T140000Z
+DTEND:20150412T140000Z
+SUMMARY:London Irish v Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196342
+UID:20150412T140000ZLondon Irish v Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150424T184500Z
+DTEND:20150424T184500Z
+SUMMARY:Bath Rugby v London Irish BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196346
+UID:20150424T184500ZBath Rugby v London Irish BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150425T130000Z
+DTEND:20150425T130000Z
+SUMMARY:Sale Sharks v Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196350
+UID:20150425T130000ZSale Sharks v Harlequins
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150425T140000Z
+DTEND:20150425T140000Z
+SUMMARY:Gloucester Rugby v Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196347
+UID:20150425T140000ZGloucester Rugby v Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150425T140000Z
+DTEND:20150425T140000Z
+SUMMARY:Leicester Tigers v London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196348
+UID:20150425T140000ZLeicester Tigers v London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150425T141500Z
+DTEND:20150425T141500Z
+SUMMARY:Northampton Saints v Saracens BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:stadiummk
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196349
+UID:20150425T141500ZNorthampton Saints v Saracens BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150426T130000Z
+DTEND:20150426T130000Z
+SUMMARY:Wasps v Exeter Chiefs BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196351
+UID:20150426T130000ZWasps v Exeter Chiefs BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150508T184500Z
+DTEND:20150508T184500Z
+SUMMARY:Harlequins v Bath Rugby BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Twickenham Stoop
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196353
+UID:20150508T184500ZHarlequins v Bath Rugby BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150509T130000Z
+DTEND:20150509T130000Z
+SUMMARY:Sale Sharks v Newcastle Falcons
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:AJ Bell Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196355
+UID:20150509T130000ZSale Sharks v Newcastle Falcons
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150509T140000Z
+DTEND:20150509T140000Z
+SUMMARY:Gloucester Rugby v London Irish
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingsholm
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196352
+UID:20150509T140000ZGloucester Rugby v London Irish
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150509T140000Z
+DTEND:20150509T140000Z
+SUMMARY:Northampton Saints v London Welsh
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Franklin's Gardens
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196354
+UID:20150509T140000ZNorthampton Saints v London Welsh
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150509T141500Z
+DTEND:20150509T141500Z
+SUMMARY:Wasps v Leicester Tigers BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Ricoh Arena
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196357
+UID:20150509T141500ZWasps v Leicester Tigers BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150510T130000Z
+DTEND:20150510T130000Z
+SUMMARY:Saracens v Exeter Chiefs BT Sport
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Allianz Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196356
+UID:20150510T130000ZSaracens v Exeter Chiefs BT Sport
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:Bath Rugby v Gloucester Rugby
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Recreation Ground
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196358
+UID:20150516T143000ZBath Rugby v Gloucester Rugby
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:Exeter Chiefs v Sale Sharks
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Sandy Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196359
+UID:20150516T143000ZExeter Chiefs v Sale Sharks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:Leicester Tigers v Northampton Saints
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Welford Road
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196360
+UID:20150516T143000ZLeicester Tigers v Northampton Saints
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:London Irish v Wasps
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Madejski Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196361
+UID:20150516T143000ZLondon Irish v Wasps
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:London Welsh v Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196362
+UID:20150516T143000ZLondon Welsh v Saracens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:Newcastle Falcons v Harlequins
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kingston Park
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196363
+UID:20150516T143000ZNewcastle Falcons v Harlequins
+END:VEVENT
+END:VCALENDAR

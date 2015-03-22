@@ -1,0 +1,14 @@
+{
+  "require": {
+    "johngrogg/ics-parser": "*",
+    "guzzlehttp/guzzle": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Punkstar\\RugbyFeed": "src/"
+    }
+  }
+}

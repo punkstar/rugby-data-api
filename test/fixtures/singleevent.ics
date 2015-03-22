@@ -1,0 +1,10 @@
+BEGIN:VEVENT
+DTSTAMP:20150311T190216Z
+DTSTART:20150516T143000Z
+DTEND:20150516T143000Z
+SUMMARY:London Welsh v Saracens
+DESCRIPTION:Competition - AVIVA Premiership Rugby
+LOCATION:Kassam Stadium
+URL:/rugby/match_centre.php?section=overview&amp;fixid=196362
+UID:20150516T143000ZLondon Welsh v Saracens
+END:VEVENT
