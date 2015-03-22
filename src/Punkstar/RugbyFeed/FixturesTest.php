@@ -13,7 +13,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testCorrectNumberOfEventsForTeam()
     {
-        $calendar = $this->getCalendarWithFixtureData();
+        $calendar = $this->getCalendarWithAvivaFixtureData();
         $fixtures = new Fixtures($calendar);
         $bath = new Team('Bath Rugby');
 
@@ -27,7 +27,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureStartOfSeason()
     {
-        $calendar = $this->getCalendarWithFixtureData();
+        $calendar = $this->getCalendarWithAvivaFixtureData();
         $fixtures = new Fixtures($calendar);
         $bath = new Team('Bath Rugby');
 
@@ -46,7 +46,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureMidSeason()
     {
-        $calendar = $this->getCalendarWithFixtureData();
+        $calendar = $this->getCalendarWithAvivaFixtureData();
         $fixtures = new Fixtures($calendar);
         $bath = new Team('Bath Rugby');
 
@@ -65,7 +65,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureMidSeasonOnDay()
     {
-        $calendar = $this->getCalendarWithFixtureData();
+        $calendar = $this->getCalendarWithAvivaFixtureData();
         $fixtures = new Fixtures($calendar);
         $bath = new Team('Bath Rugby');
 
@@ -84,7 +84,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureNullEndOfSeason()
     {
-        $calendar = $this->getCalendarWithFixtureData();
+        $calendar = $this->getCalendarWithAvivaFixtureData();
         $fixtures = new Fixtures($calendar);
         $bath = new Team('Bath Rugby');
 
@@ -95,9 +95,9 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
         $this->assertNull($next_fixture);
     }
 
-    protected function getCalendarWithFixtureData()
+    protected function getCalendarWithAvivaFixtureData()
     {
-        $file = $this->getFixtureDataFileName();
+        $file = $this->getAvivaFixtureDataFileName();
 
         if (!file_exists($file)) {
             throw new \Exception("Could not load fixture file $file");
@@ -110,7 +110,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
         return new Calendar(file_get_contents($file));
     }
 
-    protected function getFixtureDataFileName()
+    protected function getAvivaFixtureDataFileName()
     {
         return join(DIRECTORY_SEPARATOR, array(
             __DIR__,

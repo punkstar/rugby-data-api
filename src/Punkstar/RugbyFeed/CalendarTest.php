@@ -11,13 +11,13 @@ class CalendarTest extends \PHPUnit_Framework_TestCase
      */
     public function testCorrectNumberOfEvents()
     {
-        $calendar = $this->getCalendarWithFixtureData();
+        $calendar = $this->getCalendarWithAvivaFixtureData();
         $this->assertEquals(132, count($calendar->getEvents()));
     }
 
-    protected function getCalendarWithFixtureData()
+    protected function getCalendarWithAvivaFixtureData()
     {
-        $file = $this->getFixtureDataFileName();
+        $file = $this->getAvivaFixtureDataFileName();
 
         if (!file_exists($file)) {
             throw new \Exception("Could not load fixture file $file");
@@ -30,7 +30,7 @@ class CalendarTest extends \PHPUnit_Framework_TestCase
         return new Calendar(file_get_contents($file));
     }
 
-    protected function getFixtureDataFileName()
+    protected function getAvivaFixtureDataFileName()
     {
         return join(DIRECTORY_SEPARATOR, array(
             __DIR__,
