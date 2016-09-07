@@ -18,6 +18,6 @@ class Aviva extends AbstractLeague
         'Harlequins',
         'Gloucester Rugby',
         'Newcastle Falcons',
-        'London Welsh'
+        'Bristol Rugby'
     );
 }
