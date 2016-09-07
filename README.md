@@ -1,5 +1,7 @@
 # Rugby Data API
 
+[![Build Status](https://travis-ci.org/punkstar/rugby-data-api.svg?branch=master)](https://travis-ci.org/punkstar/rugby-data-api)
+
 This repository provides an API for accessing a variety of Rugby fixture and result data.
 
 ## Development
