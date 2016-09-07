@@ -2,8 +2,7 @@
 
 namespace Punkstar\RugbyFeed;
 
-use GuzzleHttp\Client;
-use JMBTechnologyLimited\ICalDissect\ICalParser;
+use ICal\ICal;
 use Punkstar\RugbyFeed\Calendar\Event;
 
 class Calendar
@@ -34,13 +33,13 @@ class Calendar
      */
     public function getEvents()
     {
-        $parser = new \ICal($this->ical_file);
+        $parser = new ICal($this->ical_file);
 
         $raw_events = $parser->events();
         $events = array();
 
         foreach ($raw_events as $raw_event) {
-            $events[] = Event::buildFromArray($raw_event);
+            $events[] = Event::buildFromIcalEvent($raw_event);
         }
 
         return $events;

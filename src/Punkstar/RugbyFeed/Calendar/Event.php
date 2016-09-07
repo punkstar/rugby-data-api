@@ -2,6 +2,7 @@
 
 namespace Punkstar\RugbyFeed\Calendar;
 
+use ICal\EventObject;
 use Punkstar\RugbyFeed\Team;
 
 class Event
@@ -55,6 +56,17 @@ class Event
         }
 
         return $obj;
+    }
+
+    public static function buildFromIcalEvent(EventObject $event)
+    {
+        $array = [
+            'LOCATION' => $event->location,
+            'SUMMARY'  => $event->summary,
+            'DTSTART'  => $event->dtstart
+        ];
+
+        return self::buildFromArray($array);
     }
 
     public function getHomeTeam()
