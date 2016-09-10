@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "473eecde0cb8fb931df3caceb9cdc124",
-    "content-hash": "1dcd3768048db3c55cad9643eccf1c9c",
+    "hash": "a2ce6806d33565f87a4a557ff6322273",
+    "content-hash": "0552cb75841f3918c386cf899086bdb0",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -294,6 +294,50 @@
                 "rest"
             ],
             "time": "2015-03-19 15:16:43"
+        },
+        {
+            "name": "olamedia/nokogiri",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/olamedia/nokogiri.git",
+                "reference": "d9c942a60a2b397eaea3c902a03e45c8010f4e48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/olamedia/nokogiri/zipball/d9c942a60a2b397eaea3c902a03e45c8010f4e48",
+                "reference": "d9c942a60a2b397eaea3c902a03e45c8010f4e48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "nokogiri.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "olamedia",
+                    "email": "olamedia@gmail.com",
+                    "homepage": "http://github.com/olamedia",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTML Parser",
+            "homepage": "http://github.com/olamedia/nokogiri",
+            "keywords": [
+                "html",
+                "parse",
+                "parser"
+            ],
+            "time": "2015-05-19 18:39:31"
         },
         {
             "name": "pimple/pimple",

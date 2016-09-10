@@ -4,7 +4,8 @@
     "johngrogg/ics-parser": "*",
     "guzzlehttp/guzzle": "*",
     "silex/silex": "~1.2",
-    "league/fractal": "0.12.0"
+    "league/fractal": "0.12.0",
+    "olamedia/nokogiri": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "*"

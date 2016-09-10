@@ -4,11 +4,14 @@ namespace Punkstar\RugbyFeed\League;
 
 use Punkstar\RugbyFeed\Calendar;
 use Punkstar\RugbyFeed\League;
+use Punkstar\RugbyFeed\Parser\BBCSportTableParser;
+use Punkstar\RugbyFeed\Table;
 use Punkstar\RugbyFeed\Team;
 
 abstract class AbstractLeague implements League
 {
     protected $calendar_url;
+    protected $table_url;
     protected $teams;
     protected $url_key;
 
@@ -20,7 +23,7 @@ abstract class AbstractLeague implements League
         $inited = array();
 
         foreach ($this->teams as $team) {
-            $inited[] = new Team($team);
+            $inited[] = Team::build($team);
         }
 
         return $inited;
@@ -44,5 +47,13 @@ abstract class AbstractLeague implements League
     public function getUrlKey()
     {
         return $this->url_key;
+    }
+
+    public function getTable()
+    {
+        $bbc_sport_parser = BBCSportTableParser::fromUrl($this->table_url);
+        $table = new Table($bbc_sport_parser->getRows());
+
+        return $table;
     }
 }

@@ -8,13 +8,12 @@ use League\Fractal\Serializer\JsonApiSerializer;
 use Punkstar\RugbyFeed\Fixtures;
 use Punkstar\RugbyFeed\League\Aviva;
 use Punkstar\RugbyFeed\League\Pro12;
-use Punkstar\RugbyFeed\Team;
 use Punkstar\RugbyFeedService\Transformer\EventTransformer;
 use Silex\Application;
 use Silex\ControllerProviderInterface;
 use Symfony\Component\HttpFoundation\Response;
 
-class LeagueController implements ControllerProviderInterface
+class FixtureController implements ControllerProviderInterface
 {
     public function connect(Application $app)
     {

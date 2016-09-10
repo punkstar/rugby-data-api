@@ -40,7 +40,39 @@ To run tests:
         }]
     }
 
+### Table Row
+
+    {
+        position: "1",
+        team: "bath",
+        played: "2",
+        won: "2",
+        drawn: "0",
+        lost: "0",
+        for: "76",
+        against: "19",
+        bonus_points: "1",
+        points: "9"
+    }
+
 ## Endpoints
+
+### League Table (/table/{league})
+
+Available leagues:
+
+* `aviva`
+* `pro12`
+
+#### Response
+
+    {
+        data: [
+            <Table Row />,
+            <Table Row />,
+            ...
+        ]
+    }
 
 ### League Fixtures (/fixtures/{league})
 
