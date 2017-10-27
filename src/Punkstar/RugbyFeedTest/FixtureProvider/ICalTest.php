@@ -1,10 +1,11 @@
 <?php
 
-namespace Punkstar\RugbyFeed\Test;
+namespace Punkstar\RugbyFeedTest;
 
-use Punkstar\RugbyFeed\Calendar;
+use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\FixtureProvider\ICal;
 
-class CalendarTest extends \PHPUnit_Framework_TestCase
+class ICalTest extends TestCase
 {
     /**
      * @test
@@ -12,7 +13,7 @@ class CalendarTest extends \PHPUnit_Framework_TestCase
     public function testCorrectNumberOfEvents()
     {
         $calendar = $this->getCalendarWithAvivaFixtureData();
-        $this->assertEquals(132, count($calendar->getEvents()));
+        $this->assertEquals(132, count($calendar->getFixtures()));
     }
 
     protected function getCalendarWithAvivaFixtureData()
@@ -27,13 +28,14 @@ class CalendarTest extends \PHPUnit_Framework_TestCase
             throw new \Exception("Could not read fixture file $file");
         }
 
-        return new Calendar(file_get_contents($file));
+        return new ICal(file_get_contents($file));
     }
 
     protected function getAvivaFixtureDataFileName()
     {
-        return join(DIRECTORY_SEPARATOR, array(
+        return implode(DIRECTORY_SEPARATOR, array(
             __DIR__,
+            '..',
             '..',
             '..',
             '..',

@@ -1,21 +1,22 @@
 <?php
 
+use Punkstar\RugbyFeed\DataManager;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$config = [];
+$config = ['debug' => true];
 
 $app = new Silex\Application($config);
+
 $app->mount('/fixtures', new \Punkstar\RugbyFeedService\Controller\FixtureController());
 $app->mount('/table', new \Punkstar\RugbyFeedService\Controller\TableController());
 
 $app->get('/', function () {
     $links = [];
-
-    $leagues = [
-        new \Punkstar\RugbyFeed\League\Aviva(),
-        new \Punkstar\RugbyFeed\League\Pro12()
-    ];
-
+    
+    $data = new DataManager();
+    $leagues = $data->getLeagues();
+    
     foreach ($leagues as $league) {
         $fixtures_url = 'fixtures/' . $league->getUrlKey();
         $table_url = 'table/' . $league->getUrlKey();
@@ -42,7 +43,7 @@ $app->get('/', function () {
         );
     }
 
-    return "<h1>Available Resources</h1> " . join("\n", $links);
+    return "<h1>Available Resources</h1> " . implode("\n", $links);
 });
 
 $app->run();

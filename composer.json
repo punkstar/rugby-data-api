@@ -5,7 +5,8 @@
     "guzzlehttp/guzzle": "*",
     "silex/silex": "~1.2",
     "league/fractal": "0.12.0",
-    "olamedia/nokogiri": "^1.0"
+    "olamedia/nokogiri": "^1.0",
+    "symfony/yaml": "~3"
   },
   "require-dev": {
     "phpunit/phpunit": "*"
@@ -14,6 +15,11 @@
     "psr-0": {
       "Punkstar\\RugbyFeed": "src/",
       "Punkstar\\RugbyFeedService": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Punkstar\\RugbyFeedTest": "src/"
     }
   }
 }

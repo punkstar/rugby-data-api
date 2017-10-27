@@ -6,8 +6,12 @@ use Punkstar\RugbyFeed\Team;
 
 class Row
 {
-    public $position;
+    /**
+     * @var Team
+     */
     public $team;
+    
+    public $position;
     public $played;
     public $won;
     public $drawn;
@@ -16,14 +20,13 @@ class Row
     public $against;
     public $bonus_points;
     public $points;
+    public $conference;
 
     public function toArray()
     {
         return [
             'position' => (int) $this->position,
-            'team' => [
-                'name' => Team::build($this->team)->name,
-            ],
+            'team' => $this->team->getName(),
             'played' => (int) $this->played,
             'won' => (int) $this->won,
             'drawn' => (int) $this->drawn,
@@ -31,7 +34,8 @@ class Row
             'for' => (int) $this->for,
             'against' => (int) $this->against,
             'bonus_points' => (int) $this->bonus_points,
-            'points' => (int) $this->points
+            'points' => (int) $this->points,
+            'conference' => $this->conference
         ];
     }
 }

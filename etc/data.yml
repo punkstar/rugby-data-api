@@ -1,0 +1,96 @@
+teams:
+  "Bath Rugby":
+    alias:
+      - Bath
+  "Northampton Saints":
+    alias:
+      - Northampton
+  "Exeter Chiefs":
+    url: exeter
+  "Saracens": ~
+  "Leicester Tigers":
+    url: leicester
+  "Wasps": ~
+  "Sale Sharks": ~
+  "Harlequins": ~
+  "Gloucester":
+    alias:
+      - Gloucester Rugby
+  "Newcastle Falcons":
+    alias:
+      - Newcastle
+  "Bristol": ~
+  "London Irish": ~
+  "London Welsh": ~
+  "Worcester":
+    alias:
+      - Worcester Warriors
+  "Munster": ~
+  "Edinburgh":
+    alias:
+      - Edinburgh Rugby
+  "Ospreys": ~
+  "Benetton": ~
+  "Scarlets": ~
+  "Ulster":
+    alias:
+      - Ulster Rugby
+  "Connacht": ~
+  "Dragons": ~
+  "Glasgow":
+    alias:
+      - Glasgow Warriors
+  "Leinster":
+    alias:
+      - Leinster Rugby
+  "Zebre": ~
+  "Cardiff Blues": ~
+  "Southern Kings": ~
+  "Cheetahs": ~
+
+leagues:
+  - name: Aviva Premiership
+    url: aviva
+    calendar:
+      url: http://www.premiershiprugby.com/tools/calendars/premier-premiership.ics?v=142610
+      type: sotic
+    table:
+      url: http://www.bbc.co.uk/sport/rugby-union/english-premiership/table
+      type: bbc
+    teams:
+      - Bath Rugby
+      - Northampton Saints
+      - Exeter Chiefs
+      - Saracens
+      - Leicester Tigers
+      - Wasps
+      - Sale Sharks
+      - Harlequins
+      - Gloucester
+      - Newcastle Falcons
+      - London Irish
+      - Worcester
+
+  - name: Guiness Pro14
+    url: pro14
+    calendar:
+      url: http://www.pro12rugby.com/tools/calendars/celtic-fixtures.ics?v=142704
+      type: sotic
+    table:
+      url: http://www.bbc.co.uk/sport/rugby-union/pro12/table
+      type: bbc
+    teams:
+      - Munster
+      - Edinburgh
+      - Ospreys
+      - Benneton
+      - Scarlets
+      - Ulster
+      - Connacht
+      - Dragons
+      - Glasgow
+      - Leinster
+      - Zebre
+      - Cardiff Blues
+      - Southern Kings
+      - Cheetahs

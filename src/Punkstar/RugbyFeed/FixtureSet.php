@@ -2,29 +2,35 @@
 
 namespace Punkstar\RugbyFeed;
 
-use Punkstar\RugbyFeed\Calendar\Event;
-
-class Fixtures
+class FixtureSet
 {
     protected $calendar;
 
-    public function __construct(Calendar $calendar)
+    public function __construct(FixtureProvider $calendar)
     {
         $this->calendar = $calendar;
+    }
+    
+    /**
+     * @return Fixture[]
+     */
+    public function getFixtures()
+    {
+        return $this->calendar->getFixtures();
     }
 
     /**
      * @param Team $team
      *
-     * @return Event[]
+     * @return Fixture[]
      */
     public function getEventsFromTeam(Team $team)
     {
         $events = array();
 
-        foreach ($this->calendar->getEvents() as $event)
+        foreach ($this->getFixtures() as $event)
         {
-            if ($team->name == $event->getAwayTeam()->name || $team->name == $event->getHomeTeam()->name) {
+            if ($team->isAliasedTo($event->getAwayTeam()->getName()) || $team->isAliasedTo($event->getHomeTeam()->getName())) {
                 $events[] = $event;
             }
         }
@@ -36,7 +42,7 @@ class Fixtures
      * @param Team $team
      * @param \DateTime $now
      *
-     * @return null|Event
+     * @return null|Fixture
      */
     public function getNextFixture(Team $team, \DateTime $now)
     {

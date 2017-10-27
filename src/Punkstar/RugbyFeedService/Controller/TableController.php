@@ -5,10 +5,11 @@ namespace Punkstar\RugbyFeedService\Controller;
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\JsonApiSerializer;
-use Punkstar\RugbyFeed\Fixtures;
+use Punkstar\RugbyFeed\DataManager;
+use Punkstar\RugbyFeed\FixtureSet;
 use Punkstar\RugbyFeed\League\Aviva;
-use Punkstar\RugbyFeed\League\Pro12;
-use Punkstar\RugbyFeedService\Transformer\EventTransformer;
+use Punkstar\RugbyFeed\League\Pro14;
+use Punkstar\RugbyFeedService\Transformer\FixtureTransformer;
 use Punkstar\RugbyFeedService\Transformer\RowTransformer;
 use Silex\Application;
 use Silex\ControllerProviderInterface;
@@ -24,8 +25,11 @@ class TableController implements ControllerProviderInterface
         $controllers->get('/{league_name_in_url}', function (Application $app, $league_name_in_url) {
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
-
-            if ($league_name_in_url !== 'aviva' && $league_name_in_url !== 'pro12') {
+    
+            $data = new DataManager();
+            $league = $data->getLeague($league_name_in_url);
+    
+            if ($league === null) {
                 return new Response(
                     json_encode([
                         "errors" => [
@@ -42,17 +46,6 @@ class TableController implements ControllerProviderInterface
                         "Content-type" => "application/json"
                     )
                 );
-            }
-
-            switch ($league_name_in_url) {
-                case 'aviva':
-                    $league = new Aviva();
-                    break;
-                case 'pro12':
-                    $league = new Pro12();
-                    break;
-                default:
-                    throw new \Exception("League not recognised");
             }
 
             $data_container = new Collection($league->getTable()->getRows(), new RowTransformer());

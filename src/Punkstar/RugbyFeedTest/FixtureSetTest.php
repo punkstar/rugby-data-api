@@ -1,21 +1,21 @@
 <?php
 
-namespace Punkstar\RugbyFeed\Test;
+namespace Punkstar\RugbyFeedTest;
 
-use Punkstar\RugbyFeed\Calendar;
-use Punkstar\RugbyFeed\Fixtures;
+use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\FixtureProvider;
+use Punkstar\RugbyFeed\FixtureSet;
 use Punkstar\RugbyFeed\Team;
 
-class FixturesTest extends \PHPUnit_Framework_TestCase
+class FixtureSetTest extends TestCase
 {
     /**
      * @test
      */
     public function testCorrectNumberOfEventsForTeam()
     {
-        $calendar = $this->getCalendarWithAvivaFixtureData();
-        $fixtures = new Fixtures($calendar);
-        $bath = new Team('Bath Rugby');
+        $fixtures = $this->getAvivaFixtureSet();
+        $bath = new Team(['name' => 'Bath Rugby', 'alias' => ['Bath']]);
 
         $events = $fixtures->getEventsFromTeam($bath);
 
@@ -27,9 +27,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureStartOfSeason()
     {
-        $calendar = $this->getCalendarWithAvivaFixtureData();
-        $fixtures = new Fixtures($calendar);
-        $bath = new Team('Bath Rugby');
+        $fixtures = $this->getAvivaFixtureSet();
+        $bath = new Team(['name' => 'Bath Rugby', 'alias' => ['Bath Rugby']]);
 
         $now = \DateTime::createFromFormat('Y-m-d', '2014-09-01');
 
@@ -37,8 +36,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertNotNull($next_fixture);
 
-        $this->assertEquals($next_fixture->getHomeTeam()->name, "Sale Sharks");
-        $this->assertEquals($next_fixture->getAwayTeam()->name, "Bath Rugby");
+        $this->assertEquals($next_fixture->getHomeTeam()->getName(), "Sale Sharks");
+        $this->assertEquals($next_fixture->getAwayTeam()->getName(), "Bath Rugby");
     }
 
     /**
@@ -46,9 +45,9 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureMidSeason()
     {
-        $calendar = $this->getCalendarWithAvivaFixtureData();
-        $fixtures = new Fixtures($calendar);
-        $bath = new Team('Bath Rugby');
+        $fixtures = $this->getAvivaFixtureSet();
+    
+        $bath = new Team(['name' => 'Bath Rugby', 'alias' => ['Bath']]);
 
         $now = \DateTime::createFromFormat('Y-m-d', '2014-09-12');
 
@@ -56,8 +55,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertNotNull($next_fixture);
 
-        $this->assertEquals($next_fixture->getHomeTeam()->name, "Bath Rugby");
-        $this->assertEquals($next_fixture->getAwayTeam()->name, "London Welsh");
+        $this->assertEquals($next_fixture->getHomeTeam()->getName(), "Bath Rugby");
+        $this->assertEquals($next_fixture->getAwayTeam()->getName(), "London Welsh");
     }
 
     /**
@@ -65,9 +64,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureMidSeasonOnDay()
     {
-        $calendar = $this->getCalendarWithAvivaFixtureData();
-        $fixtures = new Fixtures($calendar);
-        $bath = new Team('Bath Rugby');
+        $fixtures = $this->getAvivaFixtureSet();
+        $bath = new Team(['name' => 'Bath Rugby', 'alias' => ['Bath']]);
 
         $now = \DateTime::createFromFormat('Y-m-d', '2014-09-13');
 
@@ -75,8 +73,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertNotNull($next_fixture);
 
-        $this->assertEquals($next_fixture->getHomeTeam()->name, "Bath Rugby");
-        $this->assertEquals($next_fixture->getAwayTeam()->name, "London Welsh");
+        $this->assertEquals($next_fixture->getHomeTeam()->getName(), "Bath Rugby");
+        $this->assertEquals($next_fixture->getAwayTeam()->getName(), "London Welsh");
     }
 
     /**
@@ -84,9 +82,8 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNextFixtureNullEndOfSeason()
     {
-        $calendar = $this->getCalendarWithAvivaFixtureData();
-        $fixtures = new Fixtures($calendar);
-        $bath = new Team('Bath Rugby');
+        $fixtures = $this->getAvivaFixtureSet();
+        $bath = new Team(['name' => 'Bath Rugby', 'alias' => ['Bath']]);
 
         $now = \DateTime::createFromFormat('Y-m-d', '2015-06-01');
 
@@ -95,7 +92,7 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
         $this->assertNull($next_fixture);
     }
 
-    protected function getCalendarWithAvivaFixtureData()
+    protected function getAvivaFixtureSet()
     {
         $file = $this->getAvivaFixtureDataFileName();
 
@@ -106,13 +103,13 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
         if (!is_readable($file)) {
             throw new \Exception("Could not read fixture file $file");
         }
-
-        return new Calendar(file_get_contents($file));
+    
+        return new FixtureSet(new FixtureProvider\ICal(file_get_contents($file)));
     }
 
     protected function getAvivaFixtureDataFileName()
     {
-        return join(DIRECTORY_SEPARATOR, array(
+        return implode(DIRECTORY_SEPARATOR, array(
             __DIR__,
             '..',
             '..',
@@ -123,9 +120,9 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
         ));
     }
 
-    protected function getCalendarWithPro12FixtureData()
+    protected function getPro14FixtureSet()
     {
-        $file = $this->getPro12FixtureDataFileName();
+        $file = $this->getPro14FixtureDataFileName();
 
         if (!file_exists($file)) {
             throw new \Exception("Could not load fixture file $file");
@@ -135,12 +132,12 @@ class FixturesTest extends \PHPUnit_Framework_TestCase
             throw new \Exception("Could not read fixture file $file");
         }
 
-        return new Calendar(file_get_contents($file));
+        return new FixtureSet(new FixtureProvider\ICal(file_get_contents($file)));
     }
 
-    protected function getPro12FixtureDataFileName()
+    protected function getPro14FixtureDataFileName()
     {
-        return join(DIRECTORY_SEPARATOR, array(
+        return implode(DIRECTORY_SEPARATOR, array(
             __DIR__,
             '..',
             '..',

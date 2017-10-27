@@ -5,10 +5,11 @@ namespace Punkstar\RugbyFeedService\Controller;
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\JsonApiSerializer;
-use Punkstar\RugbyFeed\Fixtures;
+use Punkstar\RugbyFeed\DataManager;
+use Punkstar\RugbyFeed\FixtureSet;
 use Punkstar\RugbyFeed\League\Aviva;
-use Punkstar\RugbyFeed\League\Pro12;
-use Punkstar\RugbyFeedService\Transformer\EventTransformer;
+use Punkstar\RugbyFeed\League\Pro14;
+use Punkstar\RugbyFeedService\Transformer\FixtureTransformer;
 use Silex\Application;
 use Silex\ControllerProviderInterface;
 use Symfony\Component\HttpFoundation\Response;
@@ -24,7 +25,10 @@ class FixtureController implements ControllerProviderInterface
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
 
-            if ($league_name_in_url !== 'aviva' && $league_name_in_url !== 'pro12') {
+            $data = new DataManager();
+            $league = $data->getLeague($league_name_in_url);
+            
+            if ($league === null) {
                 return new Response(
                     json_encode([
                         "errors" => [
@@ -43,18 +47,7 @@ class FixtureController implements ControllerProviderInterface
                 );
             }
 
-            switch ($league_name_in_url) {
-                case 'aviva':
-                    $league = new Aviva();
-                    break;
-                case 'pro12':
-                    $league = new Pro12();
-                    break;
-                default:
-                    throw new \Exception("League not recognised");
-            }
-
-            $data_container = new Collection($league->getFixtures(), new EventTransformer($league));
+            $data_container = new Collection($league->getFixtures(), new FixtureTransformer($league));
 
             $data_container->setMetaValue('rel', 'self');
             $data_container->setMetaValue('uri', sprintf('/fixtures/%s', $league->getUrlKey()));
@@ -71,8 +64,11 @@ class FixtureController implements ControllerProviderInterface
         $controllers->get('/{league_name_in_url}/{team_name_in_url}', function (Application $app, $league_name_in_url, $team_name_in_url) {
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
-
-            if ($league_name_in_url !== 'aviva' && $league_name_in_url !== 'pro12') {
+    
+            $data = new DataManager();
+            $league = $data->getLeague($league_name_in_url);
+    
+            if ($league === null) {
                 return new Response(
                     json_encode([
                         "errors" => [
@@ -90,32 +86,13 @@ class FixtureController implements ControllerProviderInterface
                     )
                 );
             }
-
-            switch ($league_name_in_url) {
-                case 'aviva':
-                    $league = new Aviva();
-                    break;
-                case 'pro12':
-                    $league = new Pro12();
-                    break;
-                default:
-                    throw new \Exception("League not recognised");
-            }
-
-            $fixtures = new Fixtures($league->getCalendar());
-
-            $team = null;
-
-            foreach ($league->getTeams() as $team_in_league) {
-                if ($team_in_league->getUrlKey() == $team_name_in_url) {
-                    $team = $team_in_league;
-                }
-            }
-
+            
+            $team = $league->getTeam($team_name_in_url);
+            
             if ($team != null) {
                 $data_container = new Collection(
-                    $fixtures->getEventsFromTeam($team),
-                    new EventTransformer($league)
+                    $league->getFixturesForTeam($team),
+                    new FixtureTransformer($league)
                 );
 
                 return new Response(

@@ -3,10 +3,10 @@
 namespace Punkstar\RugbyFeedService\Transformer;
 
 use League\Fractal\TransformerAbstract;
-use Punkstar\RugbyFeed\Calendar\Event;
+use Punkstar\RugbyFeed\Fixture;
 use Punkstar\RugbyFeed\League;
 
-class EventTransformer extends TransformerAbstract
+class FixtureTransformer extends TransformerAbstract
 {
     protected $league;
 
@@ -15,11 +15,11 @@ class EventTransformer extends TransformerAbstract
         $this->league = $league;
     }
 
-    public function transform(Event $event)
+    public function transform(Fixture $event)
     {
         return [
-            'home_team'  => $event->home_team,
-            'away_team'  => $event->away_team,
+            'home_team'  => $event->home_team->getName(),
+            'away_team'  => $event->away_team->getName(),
             'home_score' => $event->home_score,
             'away_score' => $event->away_score,
             'location'   => $event->location,

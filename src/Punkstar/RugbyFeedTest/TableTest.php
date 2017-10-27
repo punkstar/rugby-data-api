@@ -1,9 +1,11 @@
 <?php
 
-namespace Punkstar\RugbyFeed;
+namespace Punkstar\RugbyFeedTest;
 
 use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\Table;
 use Punkstar\RugbyFeed\Table\Row;
+use Punkstar\RugbyFeed\TableProvider\Basic;
 
 class TableTest extends TestCase
 {
@@ -13,7 +15,7 @@ class TableTest extends TestCase
     public function testAddRow()
     {
         $row = new Row();
-        $table = new Table();
+        $table = new Table(new Basic());
 
         $table->addRow($row);
 
@@ -34,7 +36,7 @@ class TableTest extends TestCase
         $second->position = 2;
         $third->position  = 3;
 
-        $table = new Table();
+        $table = new Table(new Basic());
         $table->addRow($second);
         $table->addRow($first);
 

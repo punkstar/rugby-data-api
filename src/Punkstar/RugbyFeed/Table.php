@@ -2,15 +2,16 @@
 
 namespace Punkstar\RugbyFeed;
 
+use Punkstar\RugbyFeed\Parser\BbcSportTableParser;
 use Punkstar\RugbyFeed\Table\Row;
 
 class Table
 {
     private $rows;
 
-    public function __construct($rows = [])
+    public function __construct(TableProvider $parser)
     {
-        $this->rows = $rows;
+        $this->rows = $parser->getRows();
     }
 
     /**

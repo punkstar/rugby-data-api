@@ -1,8 +1,11 @@
 <?php
 
-namespace Punkstar\RugbyFeed\Calendar;
+namespace Punkstar\RugbyFeedTest\Calendar;
 
-class EventTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\Fixture;
+
+class FixtureTest extends TestCase
 {
     /**
      * @test
@@ -13,10 +16,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Northampton Saints 53 - 6 Gloucester Rugby'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
-        $this->assertEquals('Northampton Saints', $event->getHomeTeam()->name);
-        $this->assertEquals('Gloucester Rugby', $event->getAwayTeam()->name);
+        $this->assertEquals('Northampton Saints', $event->getHomeTeam()->getName());
+        $this->assertEquals('Gloucester', $event->getAwayTeam()->getName());
     }
 
     /**
@@ -28,10 +31,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Newcastle Falcons v Harlequins'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
-        $this->assertEquals('Newcastle Falcons', $event->getHomeTeam()->name);
-        $this->assertEquals('Harlequins', $event->getAwayTeam()->name);
+        $this->assertEquals('Newcastle Falcons', $event->getHomeTeam()->getName());
+        $this->assertEquals('Harlequins', $event->getAwayTeam()->getName());
     }
 
     public function testBtSportStripped()
@@ -40,10 +43,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Harlequins v Saracens BT Sport'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
-        $this->assertEquals('Harlequins', $event->getHomeTeam()->name);
-        $this->assertEquals('Saracens', $event->getAwayTeam()->name);
+        $this->assertEquals('Harlequins', $event->getHomeTeam()->getName());
+        $this->assertEquals('Saracens', $event->getAwayTeam()->getName());
     }
 
     public function testBbcNiStripped()
@@ -52,10 +55,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Ulster Rugby v Edinburgh Rugby BBCNI/ALBA'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
-        $this->assertEquals('Ulster Rugby', $event->getHomeTeam()->name);
-        $this->assertEquals('Edinburgh Rugby', $event->getAwayTeam()->name);
+        $this->assertEquals('Ulster', $event->getHomeTeam()->getName());
+        $this->assertEquals('Edinburgh', $event->getAwayTeam()->getName());
     }
 
     public function testTg4Stripped() {
@@ -63,10 +66,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Leinster Rugby v Glasgow Warriors TG4/BBC2SC'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
-        $this->assertEquals('Leinster Rugby', $event->getHomeTeam()->name);
-        $this->assertEquals('Glasgow Warriors', $event->getAwayTeam()->name);
+        $this->assertEquals('Leinster', $event->getHomeTeam()->getName());
+        $this->assertEquals('Glasgow', $event->getAwayTeam()->getName());
     }
 
     public function testBbcWStripped()
@@ -75,10 +78,10 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Cardiff Blues v Ospreys BBCW'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
-        $this->assertEquals('Cardiff Blues', $event->getHomeTeam()->name);
-        $this->assertEquals('Ospreys', $event->getAwayTeam()->name);
+        $this->assertEquals('Cardiff Blues', $event->getHomeTeam()->getName());
+        $this->assertEquals('Ospreys', $event->getAwayTeam()->getName());
     }
 
     /**
@@ -90,7 +93,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Newcastle Falcons 10 - 5 Harlequins'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
         $this->assertEquals(10, $event->getHomeScore());
         $this->assertEquals(5, $event->getAwayScore());
@@ -105,7 +108,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Newcastle Falcons v Harlequins'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
         $this->assertNull($event->getHomeScore());
         $this->assertNull($event->getAwayScore());
@@ -120,7 +123,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Newcastle Falcons 10 - 5 Harlequins'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
         $this->assertTrue($event->isGameFinished());
     }
@@ -134,7 +137,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'SUMMARY' => 'Newcastle Falcons v Harlequins'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
         $this->assertFalse($event->isGameFinished());
     }
@@ -148,7 +151,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'LOCATION' => 'Franklin\'s Gardens'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
         $this->assertEquals("Franklin's Gardens", $event->getLocation());
     }
@@ -159,7 +162,7 @@ class EventTest extends \PHPUnit_Framework_TestCase
             'DTSTART' => '20140905T184500Z'
         );
 
-        $event = Event::buildFromArray($data);
+        $event = Fixture::buildFromArray($data);
 
         $this->assertEquals("Fri, 05 Sep 2014 18:45:00 +0000", $event->getKickoffDateTime()->format('r'));
     }
