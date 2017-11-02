@@ -25,17 +25,24 @@ teams:
   "Worcester":
     alias:
       - Worcester Warriors
-  "Munster": ~
+  "Munster":
+    alias:
+      - Munster Rugby
   "Edinburgh":
     alias:
       - Edinburgh Rugby
   "Ospreys": ~
-  "Benetton": ~
+  "Benneton":
+    alias:
+      - Benetton Rugby
+      - Benetton
   "Scarlets": ~
   "Ulster":
     alias:
       - Ulster Rugby
-  "Connacht": ~
+  "Connacht":
+    alias:
+      - Connacht Rugby
   "Dragons": ~
   "Glasgow":
     alias:
@@ -43,10 +50,14 @@ teams:
   "Leinster":
     alias:
       - Leinster Rugby
-  "Zebre": ~
+  "Zebre":
+    alias:
+      - Zebre Rugby Club
   "Cardiff Blues": ~
   "Southern Kings": ~
-  "Cheetahs": ~
+  "Cheetahs":
+    alias:
+      - Toyota Cheetahs
 
 leagues:
   - name: Aviva Premiership
