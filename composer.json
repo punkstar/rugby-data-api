@@ -1,6 +1,7 @@
 {
   "require": {
     "php": "^7.1",
+    "ext-mbstring": "*",
     "johngrogg/ics-parser": "*",
     "guzzlehttp/guzzle": "*",
     "silex/silex": "~1.2",
