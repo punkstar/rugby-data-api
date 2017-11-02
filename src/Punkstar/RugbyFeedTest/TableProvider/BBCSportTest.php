@@ -37,7 +37,7 @@ class BBCSportTest extends TestCase
         $this->assertInstanceOf('Punkstar\RugbyFeed\Table\Row', $last_row);
 
         $this->assertEquals(1, $first_row->position);
-        $this->assertEquals('saracens', $first_row->team);
+        $this->assertEquals('saracens', $first_row->team->getUrlKey());
         $this->assertEquals(1, $first_row->played);
         $this->assertEquals(1, $first_row->won);
         $this->assertEquals(0, $first_row->drawn);
@@ -48,7 +48,7 @@ class BBCSportTest extends TestCase
         $this->assertEquals(5, $first_row->points);
 
         $this->assertEquals(12, $last_row->position);
-        $this->assertEquals('worcester', $last_row->team);
+        $this->assertEquals('worcester', $last_row->team->getUrlKey());
         $this->assertEquals(1, $last_row->played);
         $this->assertEquals(0, $last_row->won);
         $this->assertEquals(0, $last_row->drawn);
@@ -76,7 +76,7 @@ class BBCSportTest extends TestCase
         $this->assertInstanceOf('Punkstar\RugbyFeed\Table\Row', $last_row);
     
         $this->assertEquals(1, $first_row->position);
-        $this->assertEquals('glasgow', $first_row->team);
+        $this->assertEquals('glasgow', $first_row->team->getUrlKey());
         $this->assertEquals(6, $first_row->played);
         $this->assertEquals(6, $first_row->won);
         $this->assertEquals(0, $first_row->drawn);
@@ -87,7 +87,7 @@ class BBCSportTest extends TestCase
         $this->assertEquals(28, $first_row->points);
     
         $this->assertEquals(7, $last_row->position);
-        $this->assertEquals('southern kings', $last_row->team);
+        $this->assertEquals('southern_kings', $last_row->team->getUrlKey());
         $this->assertEquals(6, $last_row->played);
         $this->assertEquals(0, $last_row->won);
         $this->assertEquals(0, $last_row->drawn);
