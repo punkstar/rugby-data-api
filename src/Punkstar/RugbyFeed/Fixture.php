@@ -41,6 +41,7 @@ class Fixture
 
         if (isset($array['SUMMARY'])) {
             $summary = $array['SUMMARY'];
+            $summary = str_replace('BBC', '', $summary);
             $summary = str_replace('BT Sport', '', $summary);
             $summary = str_replace('Sky', '', $summary);
             $summary = preg_replace('![/A-Z0-9]{1,}$!', '', $summary);

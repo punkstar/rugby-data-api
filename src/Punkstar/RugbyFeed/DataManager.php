@@ -3,7 +3,6 @@
 namespace Punkstar\RugbyFeed;
 
 use Punkstar\RugbyFeed\FixtureProvider\ICal;
-use Punkstar\RugbyFeed\Parser\BbcSportTableParser;
 use Punkstar\RugbyFeed\TableProvider\BBCSport;
 use Symfony\Component\Yaml\Yaml;
 
