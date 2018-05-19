@@ -3,7 +3,8 @@
 namespace Punkstar\RugbyFeed;
 
 use Punkstar\RugbyFeed\FixtureProvider\ICal;
-use Punkstar\RugbyFeed\TableProvider\BBCSport;
+use Punkstar\RugbyFeed\FixtureProvider\BBCSport as BBCSportFixtureProvider;
+use Punkstar\RugbyFeed\TableProvider\BBCSport as BBCSportTableProvider;
 use Symfony\Component\Yaml\Yaml;
 
 class DataManager
@@ -44,8 +45,21 @@ class DataManager
         $leagues = [];
         
         foreach ($this->data['leagues'] as $leagueData) {
-            $fixtures = new FixtureSet(ICal::fromUrl($leagueData['calendar']['url']));
-            $table = new Table(BBCSport::fromUrl($leagueData['table']['url'], $this));
+            $fixtures = null;
+            foreach ($leagueData['calendar'] as $calendar) {
+                switch ($calendar['type']) {
+                    case 'sotic':
+                        $fixtures = new FixtureSet(ICal::fromUrl($calendar['url']));
+                        break;
+                    case 'bbc':
+                        $fixtures = new FixtureSet(BBCSportFixtureProvider::fromUrl($calendar['url']));
+                        break;
+                    default:
+                        throw new \InvalidArgumentException('Invalid calendar type found');
+                }
+            }
+
+            $table = new Table(BBCSportTableProvider::fromUrl($leagueData['table']['url'], $this));
 
             $teams = array_map(function ($teamKey) {
                 $data = $this->data['teams'][$teamKey];
