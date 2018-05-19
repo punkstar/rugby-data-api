@@ -7,19 +7,20 @@ use Punkstar\RugbyFeed\Team;
 
 class Fixture
 {
-    const REGEX_RESULT  = '/^(.*?) (\d+) - (\d+) (.*?)$/';
+
+    const REGEX_RESULT = '/^(.*?) (\d+) - (\d+) (.*?)$/';
     const REGEX_FIXTURE = '/^(.*?) v (.*?)$/';
-    
+
     /**
      * @var Team
      */
     public $home_team;
-    
+
     /**
      * @var Team
      */
     public $away_team;
-    
+
     public $home_score;
     public $away_score;
     public $location;
@@ -28,7 +29,7 @@ class Fixture
     public static function buildFromArray($array, $dataManager = null)
     {
         $dataManager = $dataManager ?? new DataManager();
-        
+
         $obj = new self();
 
         if (isset($array['LOCATION'])) {
@@ -81,7 +82,46 @@ class Fixture
 
         return self::buildFromArray($array);
     }
-    
+
+    /**
+     * Fixture constructor.
+     *
+     * @param string           $home_team
+     * @param string           $away_team
+     * @param int              $home_score
+     * @param int              $away_score
+     * @param string           $location
+     * @param int              $kickoff
+     * @param DataManager|null $dataManager
+     *
+     * @throws \Exception
+     */
+    public function __construct(
+        $home_team = null,
+        $away_team = null,
+        $home_score = null,
+        $away_score = null,
+        $location = null,
+        $kickoff = null,
+        $dataManager = null
+    ) {
+
+        $dataManager = $dataManager ?? new DataManager();
+
+        $this->home_team = $home_team ? $dataManager->getTeam(trim($home_team)) : null;
+        $this->away_team = $away_team ? $dataManager->getTeam(trim($away_team)) : null;
+        $this->home_score = $home_score ? trim($home_score) : null;
+        $this->away_score = $home_score ? trim($away_score) : null;
+
+        if ($location) {
+            $this->location = trim($location);
+        } elseif ($this->home_team) {
+            $this->location = $this->home_team->getStadium();
+        }
+
+        $this->kickoff = $kickoff ? trim($kickoff) : null;
+    }
+
     /**
      * @return Team
      */
@@ -89,7 +129,7 @@ class Fixture
     {
         return $this->home_team;
     }
-    
+
     /**
      * @return Team
      */
