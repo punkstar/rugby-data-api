@@ -45,52 +45,67 @@ teams:
   "Munster":
     alias:
       - Munster Rugby
+    conference: A
     stadium: Thomond Park
   "Edinburgh":
     alias:
       - Edinburgh Rugby
+    conference: B
     stadium: Myreside Stadium
   "Ospreys":
+    conference: A
     stadium: Liberty Stadium
   "Benneton":
     alias:
       - Benetton Rugby
       - Benetton
       - Benetton Treviso
+      - Treviso
+    conference: B
     stadium: Stadio Comunale di Monigo
   "Scarlets":
+    conference: B
     stadium: Parc y Scarlets
   "Ulster":
     alias:
       - Ulster Rugby
+    conference: B
     stadium: Kingspan Stadium
   "Connacht":
     alias:
       - Connacht Rugby
+    conference: A
     stadium: Galway Sportsground
   "Dragons":
+    conference: B
     stadium: Rodney Parade
   "Glasgow":
     alias:
       - Glasgow Warriors
+    conference: A
     stadium: Scotstoun Stadium
   "Leinster":
     alias:
       - Leinster Rugby
+    conference: B
     stadium: RDS Arena
   "Zebre":
     alias:
       - Zebre Rugby Club
+    conference: A
     stadium: Stadio Sergio Lanfranchi
   "Cardiff Blues":
     alias:
       - Blues
+    conference: A
     stadium: Cardiff Arms Park
   "Southern Kings":
+    conference: B
     stadium: Nelson Mandela Bay Stadium
   "Cheetahs":
     alias:
       - Toyota Cheetahs
+    conference: A
     stadium: Toyota stadium
 
 leagues:

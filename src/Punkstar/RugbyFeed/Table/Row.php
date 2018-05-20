@@ -18,6 +18,7 @@ class Row
     public $lost;
     public $for;
     public $against;
+    public $points_difference;
     public $bonus_points;
     public $points;
     public $conference;
@@ -33,6 +34,7 @@ class Row
             'lost' => (int) $this->lost,
             'for' => (int) $this->for,
             'against' => (int) $this->against,
+            'points_difference' => (int) $this->points_difference,
             'bonus_points' => (int) $this->bonus_points,
             'points' => (int) $this->points,
             'conference' => $this->conference

@@ -37,7 +37,11 @@ class Table
     protected function sort()
     {
         return usort($this->rows, function ($a, $b) {
-            return $a->position <=> $b->position;
+            if ($a->conference == $b->conference) {
+                return $a->position <=> $b->position;
+            }
+
+            return $a->conference <=> $b->conference;
         });
     }
 }
