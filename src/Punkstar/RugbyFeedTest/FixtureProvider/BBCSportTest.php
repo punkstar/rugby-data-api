@@ -25,7 +25,7 @@ class BBCSportTest extends TestCase
 
         $this->assertEquals('Saracens', $fixture->home_team->getName());
         $this->assertEquals('Wasps', $fixture->away_team->getName());
-        $this->assertEquals(1526758200, $fixture->kickoff);
+        $this->assertEquals(1526733000, $fixture->kickoff);
     }
 
     /**
@@ -47,7 +47,7 @@ class BBCSportTest extends TestCase
         $this->assertEquals('Leicester Tigers', $fixture->away_team->getName());
         $this->assertEquals(13, $fixture->home_score);
         $this->assertEquals(35, $fixture->away_score);
-        $this->assertEquals(1525503600, $fixture->kickoff);
+        $this->assertEquals(1525478400, $fixture->kickoff);
     }
 
     /**
@@ -66,7 +66,7 @@ class BBCSportTest extends TestCase
 
         $this->assertEquals('Glasgow', $fixture->home_team->getName());
         $this->assertEquals('Scarlets', $fixture->away_team->getName());
-        $this->assertEquals(1526626800, $fixture->kickoff);
+        $this->assertEquals(1526601600, $fixture->kickoff);
     }
 
     /**
@@ -88,7 +88,7 @@ class BBCSportTest extends TestCase
         $this->assertEquals('Scarlets', $fixture->away_team->getName());
         $this->assertEquals(13, $fixture->home_score);
         $this->assertEquals(28, $fixture->away_score);
-        $this->assertEquals(1526626800, $fixture->kickoff);
+        $this->assertEquals(1526601600, $fixture->kickoff);
     }
 
     /**

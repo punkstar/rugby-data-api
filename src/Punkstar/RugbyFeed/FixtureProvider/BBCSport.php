@@ -44,12 +44,12 @@ class BBCSport implements FixtureProvider
                     $away_team = $fixtureRowCore[1]['span'][0]['span'][0]['abbr'][0]['span'][0]['#text'][0];
                     $home_score = $fixtureRowCore[0]['span'][1]['span'][0]['#text'][0];
                     $away_score = $fixtureRowCore[1]['span'][1]['span'][0]['#text'][0];
-                    $kickoff = $date['#text'][0];
+                    $kickoff = $date['#text'][0] . " (GMT) London";
                 } elseif (count($fixtureRowCore) == 3) {
                     // Fixture
                     $home_team = $fixtureRowCore[0]['span'][0]['abbr'][0]['span'][0]['#text'][0];
                     $away_team = $fixtureRowCore[2]['span'][0]['abbr'][0]['span'][0]['#text'][0];
-                    $kickoff = $date['#text'][0] . $fixtureRowCore[1]['span'][0]['#text'][0];
+                    $kickoff = $date['#text'][0] . $fixtureRowCore[1]['span'][0]['#text'][0] . " (GMT) London";
                 } else {
                     throw new \Exception("Unable to parse BBC Sport Fixtures");
                 }
