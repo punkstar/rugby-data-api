@@ -2,69 +2,107 @@ teams:
   "Bath Rugby":
     alias:
       - Bath
+    stadium: Recreation Ground
   "Northampton Saints":
     alias:
       - Northampton
+      - N'hampton
+    stadium: Franklin's Gardens
   "Exeter Chiefs":
     url: exeter
-  "Saracens": ~
+    stadium: Sandy Park
+  "Saracens":
+    stadium: Allianz Park
   "Leicester Tigers":
     url: leicester
-  "Wasps": ~
-  "Sale Sharks": ~
-  "Harlequins": ~
+    stadium: Welford Road
+  "Wasps":
+    stadium: Ricoh Arena
+  "Sale Sharks":
+    alias:
+      - Sale
+    stadium: AJ Bell Stadium
+  "Harlequins":
+    stadium: Twickenham Stoop
   "Gloucester":
     alias:
       - Gloucester Rugby
+    stadium: Kingsholm Stadium
   "Newcastle Falcons":
     alias:
       - Newcastle
-  "Bristol": ~
-  "London Irish": ~
-  "London Welsh": ~
+    stadium: Kingston Park
+  "Bristol":
+    stadium: Ashton Gate
+  "London Irish":
+    stadium: Madejski Stadium
+  "London Welsh":
+    stadium: Old Deer Park
   "Worcester":
     alias:
       - Worcester Warriors
+    stadium: Sixways Stadium
   "Munster":
     alias:
       - Munster Rugby
+    stadium: Thomond Park
   "Edinburgh":
     alias:
       - Edinburgh Rugby
-  "Ospreys": ~
+    stadium: Myreside Stadium
+  "Ospreys":
+    stadium: Liberty Stadium
   "Benneton":
     alias:
       - Benetton Rugby
       - Benetton
-  "Scarlets": ~
+      - Benetton Treviso
+    stadium: Stadio Comunale di Monigo
+  "Scarlets":
+    stadium: Parc y Scarlets
   "Ulster":
     alias:
       - Ulster Rugby
+    stadium: Kingspan Stadium
   "Connacht":
     alias:
       - Connacht Rugby
-  "Dragons": ~
+    stadium: Galway Sportsground
+  "Dragons":
+    stadium: Rodney Parade
   "Glasgow":
     alias:
       - Glasgow Warriors
+    stadium: Scotstoun Stadium
   "Leinster":
     alias:
       - Leinster Rugby
+    stadium: RDS Arena
   "Zebre":
     alias:
       - Zebre Rugby Club
-  "Cardiff Blues": ~
-  "Southern Kings": ~
+    stadium: Stadio Sergio Lanfranchi
+  "Cardiff Blues":
+    alias:
+      - Blues
+    stadium: Cardiff Arms Park
+  "Southern Kings":
+    stadium: Nelson Mandela Bay Stadium
   "Cheetahs":
     alias:
       - Toyota Cheetahs
+    stadium: Toyota stadium
 
 leagues:
   - name: Aviva Premiership
     url: aviva
     calendar:
-      url: http://www.premiershiprugby.com/tools/calendars/premier-premiership.ics?v=142610
-      type: sotic
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/english-premiership/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/english-premiership/results
+        type: bbc
     table:
       url: http://www.bbc.co.uk/sport/rugby-union/english-premiership/table
       type: bbc
@@ -85,8 +123,12 @@ leagues:
   - name: Guiness Pro14
     url: pro14
     calendar:
-      url: http://www.pro12rugby.com/tools/calendars/celtic-fixtures.ics?v=142704
-      type: sotic
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/pro12/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/pro12/results
+        type: bbc
     table:
       url: http://www.bbc.co.uk/sport/rugby-union/pro12/table
       type: bbc

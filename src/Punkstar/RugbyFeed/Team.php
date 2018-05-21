@@ -48,6 +48,14 @@ class Team
     {
         return $this->data['name'] ?? 'Unknown Name';
     }
+
+    /**
+     * @return string
+     */
+    public function getStadium()
+    {
+        return $this->data['stadium'] ?? '';
+    }
 //
 //    /**
 //     * @param $alias

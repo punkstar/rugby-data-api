@@ -7,6 +7,32 @@ use Punkstar\RugbyFeed\Fixture;
 
 class FixtureTest extends TestCase
 {
+    public function testConstruct()
+    {
+        $home_team = "Northampton Saints";
+        $away_team = "Gloucester Rugby";
+        $home_score = 53;
+        $away_score = 6;
+        $kickoff = strtotime("5th September 2014");
+
+        $fixture = new Fixture(
+            $home_team,
+            $away_team,
+            $home_score,
+            $away_score,
+            null,
+            $kickoff
+        );
+
+        $this->assertEquals($home_team, $fixture->getHomeTeam()->getName());
+        $this->assertEquals('Gloucester', $fixture->getAwayTeam()->getName());
+        $this->assertEquals($home_score, $fixture->getHomeScore());
+        $this->assertEquals($away_score, $fixture->getAwayScore());
+        $this->assertEquals('Franklin\'s Gardens', $fixture->getLocation());
+        $this->assertEquals($kickoff, $fixture->getKickoffDateTime()->getTimestamp());
+    }
+
+
     /**
      * @test
      */
