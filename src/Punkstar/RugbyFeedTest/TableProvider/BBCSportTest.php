@@ -37,26 +37,28 @@ class BBCSportTest extends TestCase
         $this->assertInstanceOf('Punkstar\RugbyFeed\Table\Row', $last_row);
 
         $this->assertEquals(1, $first_row->position);
-        $this->assertEquals('saracens', $first_row->team->getUrlKey());
-        $this->assertEquals(1, $first_row->played);
-        $this->assertEquals(1, $first_row->won);
+        $this->assertEquals('exeter', $first_row->team->getUrlKey());
+        $this->assertEquals(22, $first_row->played);
+        $this->assertEquals(17, $first_row->won);
         $this->assertEquals(0, $first_row->drawn);
-        $this->assertEquals(0, $first_row->lost);
-        $this->assertEquals(35, $first_row->for);
-        $this->assertEquals(3, $first_row->against);
-        $this->assertEquals(1, $first_row->bonus_points);
-        $this->assertEquals(5, $first_row->points);
+        $this->assertEquals(5, $first_row->lost);
+        $this->assertEquals(618, $first_row->for);
+        $this->assertEquals(354, $first_row->against);
+        $this->assertEquals(264, $first_row->points_difference);
+        $this->assertEquals(17, $first_row->bonus_points);
+        $this->assertEquals(85, $first_row->points);
 
         $this->assertEquals(12, $last_row->position);
-        $this->assertEquals('worcester', $last_row->team->getUrlKey());
-        $this->assertEquals(1, $last_row->played);
-        $this->assertEquals(0, $last_row->won);
+        $this->assertEquals('london_irish', $last_row->team->getUrlKey());
+        $this->assertEquals(22, $last_row->played);
+        $this->assertEquals(3, $last_row->won);
         $this->assertEquals(0, $last_row->drawn);
-        $this->assertEquals(1, $last_row->lost);
-        $this->assertEquals(3, $last_row->for);
-        $this->assertEquals(35, $last_row->against);
-        $this->assertEquals(0, $last_row->bonus_points);
-        $this->assertEquals(0, $last_row->points);
+        $this->assertEquals(19, $last_row->lost);
+        $this->assertEquals(385, $last_row->for);
+        $this->assertEquals(651, $last_row->against);
+        $this->assertEquals(-266, $last_row->points_difference);
+        $this->assertEquals(10, $last_row->bonus_points);
+        $this->assertEquals(22, $last_row->points);
     }
     
     public function testForPro14()
@@ -77,25 +79,29 @@ class BBCSportTest extends TestCase
     
         $this->assertEquals(1, $first_row->position);
         $this->assertEquals('glasgow', $first_row->team->getUrlKey());
-        $this->assertEquals(6, $first_row->played);
-        $this->assertEquals(6, $first_row->won);
-        $this->assertEquals(0, $first_row->drawn);
-        $this->assertEquals(0, $first_row->lost);
-        $this->assertEquals(172, $first_row->for);
-        $this->assertEquals(98, $first_row->against);
-        $this->assertEquals(4, $first_row->bonus_points);
-        $this->assertEquals(28, $first_row->points);
+        $this->assertEquals(21, $first_row->played);
+        $this->assertEquals(15, $first_row->won);
+        $this->assertEquals(1, $first_row->drawn);
+        $this->assertEquals(5, $first_row->lost);
+        $this->assertEquals(614, $first_row->for);
+        $this->assertEquals(366, $first_row->against);
+        $this->assertEquals(248, $first_row->points_difference);
+        $this->assertEquals(14, $first_row->bonus_points);
+        $this->assertEquals(76, $first_row->points);
+        $this->assertEquals('A', $first_row->conference);
     
         $this->assertEquals(7, $last_row->position);
         $this->assertEquals('southern_kings', $last_row->team->getUrlKey());
-        $this->assertEquals(6, $last_row->played);
-        $this->assertEquals(0, $last_row->won);
+        $this->assertEquals(21, $last_row->played);
+        $this->assertEquals(1, $last_row->won);
         $this->assertEquals(0, $last_row->drawn);
-        $this->assertEquals(6, $last_row->lost);
-        $this->assertEquals(63, $last_row->for);
-        $this->assertEquals(223, $last_row->against);
-        $this->assertEquals(0, $last_row->bonus_points);
-        $this->assertEquals(0, $last_row->points);
+        $this->assertEquals(20, $last_row->lost);
+        $this->assertEquals(378, $last_row->for);
+        $this->assertEquals(829, $last_row->against);
+        $this->assertEquals(-451, $last_row->points_difference);
+        $this->assertEquals(7, $last_row->bonus_points);
+        $this->assertEquals(11, $last_row->points);
+        $this->assertEquals('B', $last_row->conference);
     }
 
     /**

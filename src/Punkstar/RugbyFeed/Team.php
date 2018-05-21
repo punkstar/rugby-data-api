@@ -56,6 +56,14 @@ class Team
     {
         return $this->data['stadium'] ?? '';
     }
+
+    /**
+     * @return string
+     */
+    public function getConference()
+    {
+        return $this->data['conference'] ?? '';
+    }
 //
 //    /**
 //     * @param $alias
