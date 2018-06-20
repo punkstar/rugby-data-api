@@ -4,11 +4,14 @@ namespace Punkstar\RugbyFeed;
 
 class FixtureSet
 {
-    protected $calendar;
+    protected $calendars;
 
-    public function __construct(FixtureProvider $calendar)
+    /**
+     * FixtureProvider[] $calenders
+     **/
+    public function __construct(array $calendars)
     {
-        $this->calendar = $calendar;
+        $this->calendars = $calendars;
     }
 
     /**
@@ -16,7 +19,16 @@ class FixtureSet
      */
     public function getFixtures()
     {
-        return $this->calendar->getFixtures();
+        $fixtures = [];
+        foreach ($this->calendars as $calendar) {
+            $fixtures = array_merge($fixtures, $calendar->getFixtures());
+        }
+
+        usort($fixtures, function($a, $b) {
+            return $a->kickoff <=> $b->kickoff;
+        });
+
+        return $fixtures;
     }
 
     /**
