@@ -46,7 +46,7 @@ class FixtureSetTest extends TestCase
     public function testGetNextFixtureMidSeason()
     {
         $fixtures = $this->getAvivaFixtureSet();
-    
+
         $bath = new Team(['name' => 'Bath Rugby', 'alias' => ['Bath']]);
 
         $now = \DateTime::createFromFormat('Y-m-d', '2014-09-12');
@@ -103,8 +103,8 @@ class FixtureSetTest extends TestCase
         if (!is_readable($file)) {
             throw new \Exception("Could not read fixture file $file");
         }
-    
-        return new FixtureSet(new FixtureProvider\ICal(file_get_contents($file)));
+
+        return new FixtureSet([new FixtureProvider\ICal(file_get_contents($file))]);
     }
 
     protected function getAvivaFixtureDataFileName()
@@ -132,7 +132,7 @@ class FixtureSetTest extends TestCase
             throw new \Exception("Could not read fixture file $file");
         }
 
-        return new FixtureSet(new FixtureProvider\ICal(file_get_contents($file)));
+        return new FixtureSet([new FixtureProvider\ICal(file_get_contents($file))]);
     }
 
     protected function getPro14FixtureDataFileName()
