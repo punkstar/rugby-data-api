@@ -10,7 +10,7 @@ class FixtureSet
     {
         $this->calendar = $calendar;
     }
-    
+
     /**
      * @return Fixture[]
      */
@@ -75,17 +75,5 @@ class FixtureSet
         }
 
         return $closest_event;
-    }
-
-    protected function getDateIntervalAsSeconds(\DateInterval $interval)
-    {
-        return (
-            $interval->s +
-            $interval->m * 60 +
-            $interval->h * 60 * 60 +
-            $interval->d * 60 * 60 * 24 +
-            $interval->m * 60 * 60 * 24 * 31 +
-            $interval->y = 60 * 60 * 24 * 365
-        );
     }
 }
