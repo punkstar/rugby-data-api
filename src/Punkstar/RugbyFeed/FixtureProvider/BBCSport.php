@@ -35,8 +35,14 @@ class BBCSport implements FixtureProvider
 
             $fixtureGroup = $fixtureGroups->current();
 
+            // Loop through list of fixtures on date
             foreach ($fixtureGroup['li'] as $fixtureRow) {
-                $fixtureRowCore = $fixtureRow['a'][0]['article'][0]['div'][0]['span'];
+                // Should have link, but may not if game is post-poned
+                if (isset($fixtureRow['a'])) {
+                    $fixtureRowCore = $fixtureRow['a'][0]['article'][0]['div'][0]['span'];
+                } else {
+                    $fixtureRowCore = $fixtureRow['article'][0]['div'][0]['span'];
+                }
 
                 if (count($fixtureRowCore) == 2) {
                     // Result
