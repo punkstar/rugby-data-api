@@ -3,19 +3,35 @@
 namespace Punkstar\RugbyFeedTest\FixtureProvider;
 
 use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\DataManager;
 use Punkstar\RugbyFeed\Fixture;
 use Punkstar\RugbyFeed\FixtureProvider\BBCSport;
+use Punkstar\RugbyFeed\League;
 
 class BBCSportTest extends TestCase
 {
 
     /**
+     * @var DataManager
+     */
+    private $dataManager;
+
+    /**
+     * @throws \Exception
+     */
+    public function setUp()
+    {
+        $this->dataManager = new DataManager();
+    }
+
+    /**
      * @test
+     * @throws \Exception
      */
     public function testExtractAvivaFixtures()
     {
         $html = file_get_contents($this->getAvivaFixturesDataFileName());
-        $parser = new BBCSport($html);
+        $parser = new BBCSport($html, $this->dataManager->getLeague('aviva'));
 
         $fixtures = $parser->getFixtures();
         $this->assertCount(2, $fixtures);
@@ -34,7 +50,7 @@ class BBCSportTest extends TestCase
     public function testExtractAvivaResults()
     {
         $html = file_get_contents($this->getAvivaResultsDataFileName());
-        $parser = new BBCSport($html);
+        $parser = new BBCSport($html, $this->dataManager->getLeague('aviva'));
 
         $fixtures = $parser->getFixtures();
 
@@ -56,7 +72,7 @@ class BBCSportTest extends TestCase
     public function testExtractPro14Fixtures()
     {
         $html = file_get_contents($this->getPro14FixturesDataFileName());
-        $parser = new BBCSport($html);
+        $parser = new BBCSport($html, $this->dataManager->getLeague('pro14'));
 
         $fixtures = $parser->getFixtures();
         $this->assertCount(3, $fixtures);
@@ -75,7 +91,7 @@ class BBCSportTest extends TestCase
     public function testExtractPro14Results()
     {
         $html = file_get_contents($this->getPro14ResultsDataFileName());
-        $parser = new BBCSport($html);
+        $parser = new BBCSport($html, $this->dataManager->getLeague('pro14'));
 
         $fixtures = $parser->getFixtures();
 

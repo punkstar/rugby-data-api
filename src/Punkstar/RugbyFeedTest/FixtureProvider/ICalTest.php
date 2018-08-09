@@ -3,10 +3,24 @@
 namespace Punkstar\RugbyFeedTest;
 
 use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\DataManager;
 use Punkstar\RugbyFeed\FixtureProvider\ICal;
 
 class ICalTest extends TestCase
 {
+    /**
+     * @var DataManager
+     */
+    private $dataManager;
+
+    /**
+     * @throws \Exception
+     */
+    public function setUp()
+    {
+        $this->dataManager = new DataManager();
+    }
+
     /**
      * @test
      */
@@ -28,7 +42,9 @@ class ICalTest extends TestCase
             throw new \Exception("Could not read fixture file $file");
         }
 
-        return new ICal(file_get_contents($file));
+        $league = $this->dataManager->getLeague('aviva');
+
+        return new ICal(file_get_contents($file), $league);
     }
 
     protected function getAvivaFixtureDataFileName()

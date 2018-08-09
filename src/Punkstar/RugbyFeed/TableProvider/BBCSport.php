@@ -5,24 +5,33 @@ namespace Punkstar\RugbyFeed\TableProvider;
 use nokogiri;
 use Punkstar\RugbyFeed\DataManager;
 use Punkstar\RugbyFeed\FileManager;
+use Punkstar\RugbyFeed\League;
 use Punkstar\RugbyFeed\Table\Row;
 use Punkstar\RugbyFeed\TableProvider;
 
 class BBCSport implements TableProvider
 {
 
-    private $html;
     /**
-     * @var null
+     * @var string
      */
-    private $dataManager;
+    private $html;
 
-    public function __construct($html, $dataManager = null)
+    /**
+     * @var League
+     */
+    private $league;
+
+    public function __construct($html, $league)
     {
         $this->html = $html;
-        $this->dataManager = $dataManager ?? new DataManager();
+        $this->league = $league;
     }
 
+    /**
+     * @return array|Row[]
+     * @throws \Exception
+     */
     public function getRows()
     {
         $document = new nokogiri($this->html);
@@ -35,7 +44,11 @@ class BBCSport implements TableProvider
 
             $tableRow->position = $row['td'][0]['#text'][0];
 
-            $tableRow->team = $this->dataManager->getTeam($this->getTeamFromRow($row));
+            $tableRow->team = $this->league->getTeam($this->getTeamFromRow($row));
+
+            if (is_null($tableRow->team)) {
+                throw new \Exception("Unable to recognise team in table: " . $this->getTeamFromRow($row));
+            }
 
             $tableRow->played = $row['td'][2]['#text'][0];
             $tableRow->won = $row['td'][3]['#text'][0];
@@ -58,15 +71,16 @@ class BBCSport implements TableProvider
     }
 
     /**
-     * @param $url
+     * @param string $url
+     * @param League $league
      *
      * @throws \Exception
      * @return BBCSport
      */
-    public static function fromUrl($url, $dataManager = null)
+    public static function fromUrl(string $url, League $league)
     {
         $fm = new FileManager();
-        return new self($fm->getFileFromUrl($url), $dataManager);
+        return new self($fm->getFileFromUrl($url), $league);
     }
 
     protected function getTeamFromRow($row)

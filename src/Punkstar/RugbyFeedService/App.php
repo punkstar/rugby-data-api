@@ -35,8 +35,6 @@ class App
         
             foreach ($leagues as $league) {
                 $fixtures_url = 'fixtures/' . $league->getUrlKey();
-                $table_url = 'table/' . $league->getUrlKey();
-            
                 $links[] = sprintf(
                     '<li><a href="%s">%s</a></li>',
                     $fixtures_url,
@@ -51,12 +49,15 @@ class App
                         $team_url
                     );
                 }
-            
-                $links[] = sprintf(
-                    '<li><a href="%s">%s</a></li>',
-                    $table_url,
-                    $table_url
-                );
+
+                if ($league->getTable()) {
+                    $table_url = 'table/' . $league->getUrlKey();
+                    $links[] = sprintf(
+                        '<li><a href="%s">%s</a></li>',
+                        $table_url,
+                        $table_url
+                    );
+                }
             }
         
             return "<h1>Available Resources</h1> " . implode("\n", $links);

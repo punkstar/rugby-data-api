@@ -14,6 +14,7 @@ class IntegrationTest extends TestCase
     /**
      * @param $route
      * @dataProvider routeDataProvider
+     * @throws \Exception
      */
     public function testAllRoutesReturnSuccessfulResponse($route)
     {
@@ -27,6 +28,7 @@ class IntegrationTest extends TestCase
     
     /**
      * @return array
+     * @throws \Exception
      */
     public function routeDataProvider()
     {
@@ -37,8 +39,6 @@ class IntegrationTest extends TestCase
     
         foreach ($leagues as $league) {
             $fixtures_url = 'fixtures/' . $league->getUrlKey();
-            $table_url = 'table/' . $league->getUrlKey();
-            
             $routes[] = [$fixtures_url];
         
             foreach ($league->getTeams() as $team) {
@@ -46,9 +46,11 @@ class IntegrationTest extends TestCase
                 
                 $routes[] = [$team_url];
             }
-            
-    
-            $routes[] = [$table_url];
+
+            if ($league->getTable()) {
+                $table_url = 'table/' . $league->getUrlKey();
+                $routes[] = [$table_url];
+            }
         }
         
         return $routes;

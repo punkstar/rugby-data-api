@@ -3,12 +3,29 @@
 namespace Punkstar\RugbyFeedTest;
 
 use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\DataManager;
 use Punkstar\RugbyFeed\FixtureProvider;
 use Punkstar\RugbyFeed\FixtureSet;
+use Punkstar\RugbyFeed\League;
 use Punkstar\RugbyFeed\Team;
 
 class FixtureSetTest extends TestCase
 {
+
+    /**
+     * @var DataManager
+     */
+    private $dataManager;
+
+    /**
+     * @throws \Exception
+     */
+    public function setUp()
+    {
+        $this->dataManager = new DataManager();
+    }
+
+
     /**
      * @test
      */
@@ -104,7 +121,9 @@ class FixtureSetTest extends TestCase
             throw new \Exception("Could not read fixture file $file");
         }
 
-        return new FixtureSet([new FixtureProvider\ICal(file_get_contents($file))]);
+        $league = $this->dataManager->getLeague('aviva');
+
+        return new FixtureSet([new FixtureProvider\ICal(file_get_contents($file), $league)]);
     }
 
     protected function getAvivaFixtureDataFileName()

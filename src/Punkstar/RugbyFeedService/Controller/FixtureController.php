@@ -24,7 +24,7 @@ class FixtureController implements ControllerProviderInterface
 
             $data = new DataManager();
             $league = $data->getLeague($league_name_in_url);
-            
+
             if ($league === null) {
                 return new Response(
                     json_encode([
@@ -61,10 +61,10 @@ class FixtureController implements ControllerProviderInterface
         $controllers->get('/{league_name_in_url}/{team_name_in_url}', function (Application $app, $league_name_in_url, $team_name_in_url) {
             $fractal = new Manager();
             $fractal->setSerializer(new JsonApiSerializer());
-    
+
             $data = new DataManager();
             $league = $data->getLeague($league_name_in_url);
-    
+
             if ($league === null) {
                 return new Response(
                     json_encode([
@@ -83,9 +83,9 @@ class FixtureController implements ControllerProviderInterface
                     )
                 );
             }
-            
+
             $team = $league->getTeam($team_name_in_url);
-            
+
             if ($team != null) {
                 $data_container = new Collection(
                     $league->getFixturesForTeam($team),

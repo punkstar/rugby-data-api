@@ -33,6 +33,8 @@ teams:
       - Newcastle
     stadium: Kingston Park
   "Bristol":
+    alias:
+      - Bristol Bears
     stadium: Ashton Gate
   "London Irish":
     stadium: Madejski Stadium
@@ -55,10 +57,9 @@ teams:
   "Ospreys":
     conference: A
     stadium: Liberty Stadium
-  "Benneton":
+  "Benetton":
     alias:
       - Benetton Rugby
-      - Benetton
       - Benetton Treviso
       - Treviso
     conference: B
@@ -107,6 +108,158 @@ teams:
       - Toyota Cheetahs
     conference: A
     stadium: Toyota stadium
+  "Bulls":
+    conference: South Africa
+    stadium: Loftus Versfeld
+  "Lions":
+    conference: South Africa
+    stadium: Emirates Airline Park
+  "Sharks":
+    conference: South Africa
+    stadium: Growthpoints Kings Park
+  "Stormers":
+    conference: South Africa
+    stadium: DHL Newlands
+  "Jaguares":
+    conference: South Africa
+    stadium: Estadio José Amalfitani
+  "Brumbies":
+    conference: Australia
+    stadium: GIO Stadium Canberra
+  "Rebels":
+    conference: Australia
+    stadium: AAMI Park
+  "Reds":
+    conference: Australia
+    stadium: Suncorp Stadium
+  "Sunwolves":
+    conference: Australia
+    stadium: Chichibunomiya Rugby Stadium
+  "Waratahs":
+    conference: Australia
+    stadium: Allianz Stadium
+  "Crusaders":
+    conference: New Zealand
+    stadium: AMI Stadium
+  "Hurricanes":
+    conference: New Zealand
+    stadium: Westpac Stadium
+  "Chiefs":
+    conference: New Zealand
+    stadium: FMG Stadium Waikato
+  "Highlanders":
+    conference: New Zealand
+    stadium: Forsyth Barr Stadium
+  "Blues":
+    conference: New Zealand
+    stadium: Eden Park
+  "ASM Clermont Auvergne":
+    alias:
+    - Clermont Auvergne
+    - Clermont
+    stadium: Parc des Sports Marcel Michelin
+  "Atlantique Stade Rochelais":
+    alias:
+    - Stade Rochelais
+    - La Rochelle
+    stadium: Stade Marcel-Deflandre
+  "Castres Olympique":
+    alias:
+      - Castres
+    stadium: Stade Pierre-Fabre
+  "Club Athlétique Brive Corrèze Limousin":
+    alias:
+      - CA Brive
+      - Brive
+    stadium: Stade Amédée-Domenech
+  "FC Grenoble":
+    alias:
+      - Grenoble
+    stadium: Stade des Alpes
+  "Lyon OU":
+    alias:
+      - Lyon Olympique Universitaire
+      - Lyon
+    stadium: Matmut Stadium de Gerland
+  "Montpellier":
+    alias:
+      - Montpellier Hérault
+    stadium: Altrad Stadium
+  "Perpignan":
+    stadium: Stade Aimé Giral
+  "Racing 92":
+    stadium: Paris La Défense Arena
+  "RC Toulonnais":
+    alias:
+      - Toulonnais
+      - Toulon
+      - RCT
+    stadium: Stade Mayol
+  "Section Paloise":
+    alias:
+        - Pau
+    stadium: Stade du Hameau
+  "Stade Français Paris":
+    alias:
+      - Stade Français
+    stadium: Stade Jean-Bouin
+  "Stade Toulousain":
+    alias:
+      - Toulouse
+    stadium: Stade Ernest-Wallon
+  "SU Agen Lot-et-Garonne":
+    alias:
+      - Agen
+    stadium: Stade Armandie
+  "Union Bordeaux Bègles":
+    alias:
+      - Bordeaux
+    stadium: Stade Chaban-Delmas
+  "Union Sportive Oyonnax Rugby":
+    alias:
+      - Oyonnax Rugby
+      - Oyonnax
+    stadium: Stade Charles-Mathon
+  "England":
+    stadium: Twickenham
+  "Wales":
+    stadium: Millenium Stadium
+  "Scotland":
+    stadium: Murrayfield
+  "Italy":
+    stadium: Stadio Flaminio
+  "France":
+    stadium: Stade de France
+  "Ireland":
+    stadium: Aviva Stadium
+  "Australia":
+  "South Africa":
+  "Argentina":
+  "New Zealand":
+  "Canada":
+  "Barbarians":
+  "Fiji":
+    stadium: ANZ National Stadium
+  "Georgia":
+    stadium: Mikheil Meskhi Stadium
+  "Japan":
+    stadium: Chichibunomiya Stadium
+  "Samoa":
+    stadium: Apia Park
+  "Tonga":
+    stadium: Teufaiva Sport Stadium
+  "United States":
+  "Timisoara Saracens":
+    alias:
+      - Timișoara Saracens
+    stadium: Stadionul Dan Păltinișanu
+  "Enisei-STM":
+    alias:
+      - Yenisey-STM Krasnoyarsk
+  "Krasny Yar":
+    alias:
+      - Krasny Yar Krasnoyarsk
+    stadium: Krasny Yar Stadium
 
 leagues:
   - name: Aviva Premiership
@@ -123,6 +276,7 @@ leagues:
       type: bbc
     teams:
       - Bath Rugby
+      - Bristol
       - Northampton Saints
       - Exeter Chiefs
       - Saracens
@@ -133,6 +287,7 @@ leagues:
       - Gloucester
       - Newcastle Falcons
       - London Irish
+      - London Welsh
       - Worcester
 
   - name: Guiness Pro14
@@ -151,7 +306,7 @@ leagues:
       - Munster
       - Edinburgh
       - Ospreys
-      - Benneton
+      - Benetton
       - Scarlets
       - Ulster
       - Connacht
@@ -162,3 +317,208 @@ leagues:
       - Cardiff Blues
       - Southern Kings
       - Cheetahs
+
+  - name: Super Rugby
+    url: super
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/super-rugby/results
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/super-rugby/fixtures
+        type: bbc
+    table:
+      url: https://www.bbc.co.uk/sport/rugby-union/super-rugby/table
+      type: bbc
+    teams:
+      - Blues
+      - Brumbies
+      - Bulls
+      - Chiefs
+      - Crusaders
+      - Highlanders
+      - Hurricanes
+      - Jaguares
+      - Lions
+      - Rebels
+      - Reds
+      - Sharks
+      - Stormers
+      - Sunwolves
+      - Waratahs
+
+  - name: French Top 14
+    url: top_14
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/top-14/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/top-14/results
+        type: bbc
+    table:
+      url: https://www.bbc.co.uk/sport/rugby-union/top-14/table
+      type: bbc
+    teams:
+      - ASM Clermont Auvergne
+      - Atlantique Stade Rochelais
+      - Castres Olympique
+      - Club Athlétique Brive Corrèze Limousin
+      - FC Grenoble
+      - Lyon OU
+      - Montpellier
+      - Perpignan
+      - Racing 92
+      - RC Toulonnais
+      - Section Paloise
+      - Stade Français Paris
+      - Stade Toulousain
+      - SU Agen Lot-et-Garonne
+      - Union Bordeaux Bègles
+      - Union Sportive Oyonnax Rugby
+  - name: Six Nations
+    url: six_nations
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/six-nations/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/six-nations/results
+        type: bbc
+    table:
+      url: https://www.bbc.co.uk/sport/rugby-union/six-nations/table
+      type: bbc
+    teams:
+      - England
+      - France
+      - Ireland
+      - Italy
+      - Scotland
+      - Wales
+  - name: Rugby Championship
+    url: rugby_championship
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/rugby-championship/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/rugby-championship/results
+        type: bbc
+    table:
+      url: https://www.bbc.co.uk/sport/rugby-union/rugby-championship/table
+      type: bbc
+    teams:
+      - Argentina
+      - Australia
+      - New Zealand
+      - South Africa
+  - name: International
+    url: international
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/international-match/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/international-match/results
+        type: bbc
+    teams:
+      - Argentina
+      - Australia
+      - Barbarians
+      - Canada
+      - England
+      - Fiji
+      - France
+      - Georgia
+      - Ireland
+      - Italy
+      - Japan
+      - New Zealand
+      - Samoa
+      - Scotland
+      - South Africa
+      - Tonga
+      - United States
+      - Wales
+  - name: Champions Cup
+    url: champions_cup
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/european-cup/fixtures
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/european-cup/results
+        type: bbc
+    table:
+      url: https://www.bbc.co.uk/sport/rugby-union/european-cup/table
+      type: bbc
+    teams:
+      - ASM Clermont Auvergne
+      - Atlantique Stade Rochelais
+      - Benetton
+      - Bath Rugby
+      - Cardiff Blues
+      - Castres Olympique
+      - Edinburgh
+      - Exeter Chiefs
+      - Glasgow
+      - Gloucester
+      - Harlequins
+      - Leicester Tigers
+      - Leinster
+      - Lyon OU
+      - Montpellier
+      - Munster
+      - Newcastle Falcons
+      - Northampton Saints
+      - Ospreys
+      - Racing 92
+      - RC Toulonnais
+      - Saracens
+      - Scarlets
+      - Stade Toulousain
+      - Ulster
+      - Wasps
+  - name: Challenge Cup
+    url: challenge_cup
+    calendar:
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/european-challenge-cup/results
+        type: bbc
+      -
+        url: https://www.bbc.co.uk/sport/rugby-union/european-challenge-cup/fixtures
+        type: bbc
+    table:
+      url: https://www.bbc.co.uk/sport/rugby-union/european-challenge-cup/table
+      type: bbc
+    teams:
+      - ASM Clermont Auvergne
+      - Atlantique Stade Rochelais
+      - Cardiff Blues
+      - Benetton
+      - Bristol
+      - Club Athlétique Brive Corrèze Limousin
+      - Connacht
+      - Dragons
+      - Edinburgh
+      - Enisei-STM
+      - FC Grenoble
+      - Gloucester
+      - Harlequins
+      - Krasny Yar
+      - London Irish
+      - Lyon OU
+      - Newcastle Falcons
+      - Northampton Saints
+      - Ospreys
+      - Perpignan
+      - Sale Sharks
+      - Section Paloise
+      - Stade Français Paris
+      - Stade Toulousain
+      - SU Agen Lot-et-Garonne
+      - Timisoara Saracens
+      - Union Bordeaux Bègles
+      - Union Sportive Oyonnax Rugby
+      - Worcester
+      - Zebre

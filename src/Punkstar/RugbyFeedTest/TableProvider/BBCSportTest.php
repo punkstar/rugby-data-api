@@ -3,18 +3,34 @@
 namespace Punkstar\RugbyFeedTest\TableProvider;
 
 use PHPUnit\Framework\TestCase;
+use Punkstar\RugbyFeed\DataManager;
 use Punkstar\RugbyFeed\TableProvider\BBCSport;
 use Punkstar\RugbyFeed\Table\Row;
 
 class BBCSportTest extends TestCase
 {
     /**
+     * @var DataManager
+     */
+    private $dataManager;
+
+    /**
+     * @throws \Exception
+     */
+    public function setUp()
+    {
+        $this->dataManager = new DataManager();
+    }
+
+    /**
      * @test
+     * @throws \Exception
      */
     public function testExtractsRows()
     {
         $html = file_get_contents($this->getAvivaTableDataFileName());
-        $parser = new BBCSport($html);
+        $league = $this->dataManager->getLeague('aviva');
+        $parser = new BBCSport($html, $league);
 
         $this->assertCount(12, $parser->getRows());
     }
@@ -25,7 +41,8 @@ class BBCSportTest extends TestCase
     public function testRowPopulation()
     {
         $html = file_get_contents($this->getAvivaTableDataFileName());
-        $parser = new BBCSport($html);
+        $league = $this->dataManager->getLeague('aviva');
+        $parser = new BBCSport($html, $league);
 
         /** @var Row $first_row */
         $first_row = $parser->getRows()[0];
@@ -64,7 +81,8 @@ class BBCSportTest extends TestCase
     public function testForPro14()
     {
         $html = file_get_contents($this->getPro14TableDataFileName());
-        $parser = new BBCSport($html);
+        $league = $this->dataManager->getLeague('pro14');
+        $parser = new BBCSport($html, $league);
     
         $this->assertCount(14, $parser->getRows());
     

@@ -4,46 +4,41 @@ namespace Punkstar\RugbyFeed;
 
 class Team
 {
-//    /**
-//     * @param $name
-//     * @return Team
-//     */
-//    public static function build($name)
-//    {
-//        foreach (self::$team_map as $team_key => $team_data) {
-//            $team_aliases = array_map('strtolower', $team_data['aliases']);
-//
-//            if (in_array(strtolower($name), $team_aliases)) {
-//                return new self($team_key);
-//            }
-//        }
-//
-//        return new self($name);
-//    }
+    private $data;
+
+    /**
+     * @var string
+     */
+    private $url;
 
     public function __construct($data)
     {
         $this->data = $data;
+
+        $this->url = $this->data['url'] ?? str_replace(' ', '_', mb_strtolower($this->getName()));
     }
 
+    /**
+     * @return string
+     */
     public function getUrlKey()
     {
-        return $this->data['url'] ?? str_replace(' ', '_', strtolower($this->getName()));
+        return $this->url;
     }
-    
+
     /**
      * @param $searchString
      * @return bool
      */
     public function isAliasedTo($searchString)
     {
-        $aliases = array_map('strtolower', $this->data['alias'] ?? []);
-        $aliases[] = strtolower($this->getName());
-        $aliases[] = strtolower($this->getUrlKey());
-        
-        return in_array(strtolower($searchString), $aliases);
+        $aliases = array_map('mb_strtolower', $this->data['alias'] ?? []);
+        $aliases[] = mb_strtolower($this->getName());
+        $aliases[] = $this->getUrlKey();
+
+        return in_array(mb_strtolower($searchString), $aliases);
     }
-    
+
     public function getName()
     {
         return $this->data['name'] ?? 'Unknown Name';
@@ -64,27 +59,4 @@ class Team
     {
         return $this->data['conference'] ?? '';
     }
-//
-//    /**
-//     * @param $alias
-//     * @return bool
-//     */
-//    public function isTeamAlias($alias)
-//    {
-//        return in_array(strtolower($alias), $this->getTeamAliases(), true);
-//    }
-//
-//    /**
-//     * Get lowercased valid team aliases.
-//     *
-//     * @return array
-//     */
-//    public function getTeamAliases()
-//    {
-//        $aliases = static::$team_map[$this->key]['aliases'];
-//        $aliases[] = $this->key;
-//        $aliases[] = $this->name;
-//
-//        return array_unique(array_map('strtolower', $aliases));
-//    }
 }

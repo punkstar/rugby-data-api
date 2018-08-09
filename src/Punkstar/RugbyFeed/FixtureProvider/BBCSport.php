@@ -3,26 +3,42 @@
 namespace Punkstar\RugbyFeed\FixtureProvider;
 
 use nokogiri;
-use Punkstar\RugbyFeed\DataManager;
 use Punkstar\RugbyFeed\FileManager;
 use Punkstar\RugbyFeed\Fixture;
 use Punkstar\RugbyFeed\FixtureProvider;
+use Punkstar\RugbyFeed\League;
 
 class BBCSport implements FixtureProvider
 {
 
-    private $html;
     /**
-     * @var null
+     * @var string
      */
-    private $dataManager;
+    private $html;
 
-    public function __construct($html, $dataManager = null)
+    /**
+     * @var League
+     */
+    private $league;
+
+    /**
+     * BBCSport constructor.
+     *
+     * @param string $html
+     * @param League $league
+     */
+    public function __construct(string $html, League $league)
     {
         $this->html = $html;
-        $this->dataManager = $dataManager ?? new DataManager();
+        $this->league = $league;
     }
 
+    /**
+     * Parse fixtures
+     *
+     * @return array|Fixture[]
+     * @throws \Exception
+     */
     public function getFixtures()
     {
         $document = new nokogiri($this->html);
@@ -61,12 +77,13 @@ class BBCSport implements FixtureProvider
                 }
 
                 $fixtures[] = new Fixture(
+                    $this->league,
                     trim($home_team),
                     trim($away_team),
-                    $home_score ?? null,
-                    $away_score ?? null,
-                    null,
-                    strtotime(trim($kickoff))
+                    strtotime(trim($kickoff)),
+                    isset($home_score) ? trim($home_score) : null,
+                    isset($away_score) ? trim($away_score) : null,
+                    null
                 );
             }
 
@@ -77,14 +94,17 @@ class BBCSport implements FixtureProvider
     }
 
     /**
-     * @param $url
+     * Get fixture parser from URL
+     *
+     * @param string $url
+     * @param League $league
      *
      * @throws \Exception
      * @return BBCSport
      */
-    public static function fromUrl($url, $dataManager = null)
+    public static function fromUrl($url, $league)
     {
         $fm = new FileManager();
-        return new self($fm->getFileFromUrl($url), $dataManager);
+        return new self($fm->getFileFromUrl($url), $league);
     }
 }
